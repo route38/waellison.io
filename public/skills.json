@@ -1,0 +1,12 @@
+{
+    "Cloud": [
+        {
+            "name": "azure",
+            "desc": "Microsoft Azure"
+        },
+        {
+            "name": "aws",
+            "desc": "Amazon Web Services"
+        }
+    ]
+}
