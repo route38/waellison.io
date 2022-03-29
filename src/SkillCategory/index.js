@@ -1,5 +1,5 @@
 import React from "react";
-import CaptionedIcon from "./Icons";
+import CaptionedIcon from "../Icons";
 
 class SkillCategory extends React.Component {
     render() {
@@ -9,7 +9,11 @@ class SkillCategory extends React.Component {
                 <ul>
                     {
                         this.props.children.map(child => {
-                            return <li key={child.name}><CaptionedIcon name={child.name} /></li>
+                            return (
+                              <li key={child}>
+                                <CaptionedIcon name={child} />
+                              </li>
+                            )
                         })
                     }
                 </ul>

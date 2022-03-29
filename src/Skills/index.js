@@ -1,5 +1,6 @@
+import "./index.css";
 import React from "react";
-import SkillCategory from "./SkillCategory";
+import SkillCategory from "../SkillCategory";
 
 class Skills extends React.Component {
     componentDidMount() {
@@ -17,7 +18,10 @@ class Skills extends React.Component {
                     <h1>Skills</h1>
                     {
                         Object.keys(skills).map(category => {
-                            return <SkillCategory key={category} children={skills[category]} name={category} />
+                            return <SkillCategory
+                                     key={category}
+                                     children={skills[category]}
+                                     name={category} />
                         })
                     }
                 </div>

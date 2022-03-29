@@ -1,3 +1,5 @@
+import "./index.css";
+
 const Flask = () => {
     return (
         <span>
@@ -49,7 +51,7 @@ const Access = () => {
 const GoogleCloud = () => {
     return (
         <span>
-            <img src='icons/cloud-googleCloud.svg' className='captionedIcon' alt='GoogleCloud' /> GoogleCloud
+            <img src='icons/cloud-googleCloud.svg' className='captionedIcon' alt='GoogleCloud' /> Google Cloud
         </span>
     )
 }
@@ -57,7 +59,7 @@ const GoogleCloud = () => {
 const Outlook = () => {
     return (
         <span>
-            <img src='icons/software-Outlook.svg' className='captionedIcon' alt='Outlook' /> Outlook
+            <img src='icons/software-Outlook.svg' className='captionedIcon' alt='Outlook' /> Microsoft Outlook
         </span>
     )
 }
@@ -81,7 +83,7 @@ const Ruby = () => {
 const SoftwareDevelopment = () => {
     return (
         <span>
-            <img src='icons/skill-softwareDevelopment.svg' className='captionedIcon' alt='SoftwareDevelopment' /> SoftwareDevelopment
+            <img src='icons/skill-softwareDevelopment.svg' className='captionedIcon' alt='SoftwareDevelopment' /> Software Development
         </span>
     )
 }
@@ -97,7 +99,7 @@ const Teamwork = () => {
 const Word = () => {
     return (
         <span>
-            <img src='icons/software-Word.svg' className='captionedIcon' alt='Word' /> Word
+            <img src='icons/software-Word.svg' className='captionedIcon' alt='Word' /> Microsoft Word
         </span>
     )
 }
@@ -113,7 +115,7 @@ const PostgreSQL = () => {
 const VsCode = () => {
     return (
         <span>
-            <img src='icons/software-VsCode.svg' className='captionedIcon' alt='VsCode' /> VsCode
+            <img src='icons/software-VsCode.svg' className='captionedIcon' alt='VsCode' /> Visual Studio Code
         </span>
     )
 }
@@ -129,7 +131,7 @@ const Django = () => {
 const RestApi = () => {
     return (
         <span>
-            <img src='icons/skill-RestApi.svg' className='captionedIcon' alt='RestApi' /> RestApi
+            <img src='icons/skill-RestApi.svg' className='captionedIcon' alt='RestApi' /> REST APIs
         </span>
     )
 }
@@ -145,7 +147,7 @@ const Linux = () => {
 const ProblemSolving = () => {
     return (
         <span>
-            <img src='icons/personal-problemSolving.svg' className='captionedIcon' alt='ProblemSolving' /> ProblemSolving
+            <img src='icons/personal-problemSolving.svg' className='captionedIcon' alt='ProblemSolving' /> Problem Solving
         </span>
     )
 }
@@ -153,23 +155,23 @@ const ProblemSolving = () => {
 const Excel = () => {
     return (
         <span>
-            <img src='icons/software-Excel.svg' className='captionedIcon' alt='Excel' /> Excel
+            <img src='icons/software-Excel.svg' className='captionedIcon' alt='Excel' /> Microsoft Excel
         </span>
     )
 }
 
-const Tanzania = () => {
+const Swahili = () => {
     return (
         <span>
-            <img src='icons/flag-tanzania.svg' className='captionedIcon' alt='Tanzania' /> Tanzania
+            <img src='icons/flag-tanzania.svg' className='captionedIcon' alt='Tanzania' /> Swahili
         </span>
     )
 }
 
-const USA = () => {
+const English = () => {
     return (
         <span>
-            <img src='icons/flag-USA.svg' className='captionedIcon' alt='USA' /> USA
+            <img src='icons/flag-USA.svg' className='captionedIcon' alt='USA' /> English
         </span>
     )
 }
@@ -177,7 +179,7 @@ const USA = () => {
 const TimeManagement = () => {
     return (
         <span>
-            <img src='icons/personal-timeManagement.svg' className='captionedIcon' alt='TimeManagement' /> TimeManagement
+            <img src='icons/personal-timeManagement.svg' className='captionedIcon' alt='TimeManagement' /> Time Management
         </span>
     )
 }
@@ -190,10 +192,10 @@ const JavaScript = () => {
     )
 }
 
-const WindowsTen = () => {
+const Windows = () => {
     return (
         <span>
-            <img src='icons/software-windowsTen.svg' className='captionedIcon' alt='WindowsTen' /> WindowsTen
+            <img src='icons/software-windowsTen.svg' className='captionedIcon' alt='Windows' /> Windows
         </span>
     )
 }
@@ -206,10 +208,10 @@ const Dependability = () => {
     )
 }
 
-const Germany = () => {
+const German = () => {
     return (
         <span>
-            <img src='icons/flag-germany.svg' className='captionedIcon' alt='Germany' /> Germany
+            <img src='icons/flag-germany.svg' className='captionedIcon' alt='German' /> German
         </span>
     )
 }
@@ -225,12 +227,20 @@ const MedicalCoding = () => {
 const Jquery = () => {
     return (
         <span>
-            <img src='icons/library-jquery.svg' className='captionedIcon' alt='Jquery' /> Jquery
+            <img src='icons/library-jquery.svg' className='captionedIcon' alt='jQuery' /> jQuery
         </span>
     )
 }
 
-const Mexico = () => {
+const ReactJs = () => {
+    return (
+        <span>
+            <img src='icons/library-react.svg' className='captionedIcon' alt='React' /> React
+        </span>
+    )
+}
+
+const Spanish = () => {
     return (
         <span>
             <img src='icons/flag-mexico.svg' className='captionedIcon' alt='Mexico' /> Mexico
@@ -254,10 +264,10 @@ const AWS = () => {
     )
 }
 
-const Devops = () => {
+const DevOps = () => {
     return (
         <span>
-            <img src='icons/skill-devops.svg' className='captionedIcon' alt='Devops' /> Devops
+            <img src='icons/skill-devops.svg' className='captionedIcon' alt='Devops' /> DevOps
         </span>
     )
 }
@@ -281,7 +291,7 @@ const Azure = () => {
 const Cee = () => {
     return (
         <span>
-            <img src='icons/language-Cee.svg' className='captionedIcon' alt='Cee' /> Cee
+            <img src='icons/language-Cee.svg' className='captionedIcon' alt='Cee' /> C
         </span>
     )
 }
@@ -305,12 +315,12 @@ const Sinatra = () => {
 const CeePlusPlus = () => {
     return (
         <span>
-            <img src='icons/language-CeePlusPlus.svg' className='captionedIcon' alt='CeePlusPlus' /> CeePlusPlus
+            <img src='icons/language-CeePlusPlus.svg' className='captionedIcon' alt='C++' /> C++
         </span>
     )
 }
 
-const France = () => {
+const French = () => {
     return (
         <span>
             <img src='icons/flag-france.svg' className='captionedIcon' alt='French' /> French
@@ -326,6 +336,14 @@ const Git = () => {
     )
 }
 
+const CiCd = () => {
+    return (
+        <span>
+            <img src='icons/skill-devops.svg' className='captionedIcon' alt='Continuous integration' /> <abbr title='Continuous integration'>CI</abbr>/<abbr title='Continuous delivery'>CD</abbr>
+        </span>
+    )
+}
+
 const CaptionedIcon = (props) => {
     return iconTable[props.name];
 };
@@ -336,7 +354,7 @@ const iconTable = {
 	learning: <Learning />,
 	css: <CSSLang />,
 	docker: <Docker />,
-    access: <Access />,
+  access: <Access />,
 	googleCloud: <GoogleCloud />,
 	outlook: <Outlook />,
 	kubernetes: <Kubernetes />,
@@ -351,27 +369,29 @@ const iconTable = {
 	linux: <Linux />,
 	problemSolving: <ProblemSolving />,
 	excel: <Excel />,
-	swahili: <Tanzania />,
-	english: <USA />,
+	swahili: <Swahili />,
+	english: <English />,
 	timeManagement: <TimeManagement />,
 	javaScript: <JavaScript />,
-	windows: <WindowsTen />,
+	windows: <Windows />,
 	dependability: <Dependability />,
-	germany: <Germany />,
+	german: <German />,
 	medicalCoding: <MedicalCoding />,
 	jQuery: <Jquery />,
-	spanish: <Mexico />,
-	HTML: <HTMLLang />,
+  reactjs: <ReactJs />,
+	spanish: <Spanish />,
+	html: <HTMLLang />,
 	aws: <AWS />,
-	devops: <Devops />,
+	devops: <DevOps />,
 	telecommuting: <Telecommuting />,
 	azure: <Azure />,
 	cee: <Cee />,
 	writing: <Writing />,
 	sinatra: <Sinatra />,
 	ceePlusPlus: <CeePlusPlus />,
-	french: <France />,
+	french: <French />,
 	git: <Git />,
+  continuousIntegration: <CiCd />,
 };
 
 export {
@@ -396,28 +416,29 @@ export {
 	Linux,
 	ProblemSolving,
 	Excel,
-	Tanzania,
-	USA,
+	Swahili,
+	English,
 	TimeManagement,
 	JavaScript,
-	WindowsTen,
+	Windows,
 	Dependability,
-	Germany,
+	German,
 	MedicalCoding,
 	Jquery,
-	Mexico,
+  ReactJs,
+	Spanish,
 	HTMLLang,
 	AWS,
-	Devops,
+	DevOps,
 	Telecommuting,
 	Azure,
 	Cee,
 	Writing,
 	Sinatra,
 	CeePlusPlus,
-	France,
+	French,
 	Git,
+  CiCd,
 };
 
 export default CaptionedIcon;
-

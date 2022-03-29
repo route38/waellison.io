@@ -1,12 +1,34 @@
 {
-    "Cloud": [
-        {
-            "name": "azure",
-            "desc": "Microsoft Azure"
-        },
-        {
-            "name": "aws",
-            "desc": "Amazon Web Services"
-        }
+    "DevOps": [
+        "azure",
+        "googleCloud",
+        "docker",
+        "kubernetes",
+        "git",
+        "linux",
+        "continuousIntegration"
+    ],
+    "General": [
+        "word",
+        "excel",
+        "outlook"
+    ],
+    "Languages": [
+        "python",
+        "javaScript",
+        "cee",
+        "ruby",
+        "postgreSQL",
+        "english",
+        "french"
+    ],
+    "Web Development": [
+        "flask",
+        "django",
+        "jQuery",
+        "reactjs",
+        "restApi",
+        "html",
+        "css"
     ]
 }
