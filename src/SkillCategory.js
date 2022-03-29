@@ -9,7 +9,11 @@ class SkillCategory extends React.Component {
                 <ul>
                     {
                         this.props.children.map(child => {
-                            return <li key={child.name}><CaptionedIcon name={child.name} /></li>
+                            return (
+                              <li key={child}>
+                                <CaptionedIcon name={child} />
+                              </li>
+                            )
                         })
                     }
                 </ul>

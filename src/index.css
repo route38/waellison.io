@@ -7,11 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 .captionedIcon {
-  background-size: 24px 24px;
+  height: 24px;
+  width: auto;
 }

@@ -17,7 +17,10 @@ class Skills extends React.Component {
                     <h1>Skills</h1>
                     {
                         Object.keys(skills).map(category => {
-                            return <SkillCategory key={category} children={skills[category]} name={category} />
+                            return <SkillCategory
+                                     key={category}
+                                     children={skills[category]}
+                                     name={category} />
                         })
                     }
                 </div>
