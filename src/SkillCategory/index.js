@@ -1,5 +1,5 @@
 import React from "react";
-import CaptionedIcon from "./Icons";
+import CaptionedIcon from "../Icons";
 
 class SkillCategory extends React.Component {
     render() {

@@ -1,5 +1,5 @@
 import React from "react";
-import SkillCategory from "./SkillCategory";
+import SkillCategory from "../SkillCategory";
 
 class Skills extends React.Component {
     componentDidMount() {
