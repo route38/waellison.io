@@ -12,3 +12,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+.captionedIcon {
+  background-size: 24px 24px;
+}
