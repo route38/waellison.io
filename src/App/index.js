@@ -3,7 +3,7 @@ import Skills from '../Skills';
 
 function App() {
   return (
-    <div className="App">
+    <div id="resume">
       <Skills />
     </div>
   );
