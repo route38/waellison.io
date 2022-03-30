@@ -2,7 +2,7 @@ import './index.css';
 import Summary from '../Summary';
 import Skills from '../Skills';
 
-function App() {
+function Resume() {
   return (
     <div id="resume">
       <Summary />
@@ -11,4 +11,4 @@ function App() {
   );
 }
 
-export default App;
+export default Resume;
