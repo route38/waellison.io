@@ -1,1 +1,26 @@
+#skillbox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    margin: 0 -1rem;
+}
 
+ul.skills-learned-box {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+ul.skills-learned-box li {
+    display: inline-block;
+    font-size: 9pt;
+    background-color: #bbb;
+    border-radius: 6px;
+    height: 2rem;
+    padding: 0 8px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 2rem;
+    margin-bottom: 4px;
+}

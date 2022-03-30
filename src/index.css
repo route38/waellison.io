@@ -5,4 +5,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: grid;
+  width: 100%;
+  grid-template-columns: clamp(1rem, 12rem, 24rem) repeat(3, 1fr) clamp(1rem, 12rem, 24rem);
+}
+
+#footer ul li {
+  margin-right: 0;
+}
+
+.footer-nav li:not(:last-child)::after {
+  content: " \2726 ";
+}
+
+.container {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  margin: 6rem 0;
+  width: 100%;
+}
+
+.container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container .center iframe {
+  margin: 1rem auto;
+  max-width: 100%;
+  display: block;
 }

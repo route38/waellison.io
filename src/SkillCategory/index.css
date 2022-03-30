@@ -1,0 +1,25 @@
+.skillCategory {
+    flex-basis: calc(50% - 2rem);
+    width: calc(50% - 2rem);
+    padding: 0 1rem;
+}
+
+.skillCategory h2 {
+    margin: 0;
+}
+
+.skillCategory ul {
+    list-style-type: none;
+    margin-top: 0;
+    padding-left: 0;
+}
+
+.skillCategory ul li {
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.skillCategory ul li img {
+    margin-right: 5px;
+}
