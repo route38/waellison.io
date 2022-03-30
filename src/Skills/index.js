@@ -4,18 +4,19 @@ import SkillCategory from "../SkillCategory";
 
 class Skills extends React.Component {
     componentDidMount() {
-        fetch("./skills.json")
+        fetch("./resume.json")
             .then(response => response.json())
-            .then(json => this.setState({skills: json}))
+            .then(json => this.setState({resume: json}))
             .catch(console.error);
     }
 
     render() {
         if(this.state) {
-            let skills = this.state.skills;
+            let skills = this.state.resume.skills;
             return (
-                <div id="skillsArea">
+                <div id="skills">
                     <h1>Skills</h1>
+                    <div id="skillbox">
                     {
                         Object.keys(skills).map(category => {
                             return <SkillCategory
@@ -23,7 +24,8 @@ class Skills extends React.Component {
                                      children={skills[category]}
                                      name={category} />
                         })
-                    }
+                    }                    
+                    </div>
                 </div>
             );
         }
