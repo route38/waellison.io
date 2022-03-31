@@ -4,6 +4,7 @@ import './index.css';
 import Home from './Home';
 import Resume from './Resume';
 import Portfolio from './Portfolio';
+import Colophon from './Colophon';
 import NavBar from './NavBar';
 import Footer from './Footer';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -17,6 +18,7 @@ ReactDOM.render(
       <Route path="/" element={<Home />} />
       <Route path="/resume" element={<Resume />} />
       <Route path="/portfolio" element={<Portfolio />} />
+      <Route path="/colophon" element={<Colophon />} />
     </Routes>
 
     <Footer />

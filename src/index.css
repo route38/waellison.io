@@ -5,23 +5,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
   display: grid;
   width: 100%;
   grid-template-columns: clamp(1rem, 12rem, 24rem) repeat(3, 1fr) clamp(1rem, 12rem, 24rem);
-}
-
-#footer ul li {
-  margin-right: 0;
-}
-
-.footer-nav li:not(:last-child)::after {
-  content: " \2726 ";
+  grid-template-rows: 3rem auto 3rem;
+    min-height: 100vh;
 }
 
 .container {
   grid-column-start: 2;
   grid-column-end: 5;
-  margin: 6rem 0;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin: 0;
+  padding: 1rem;
   width: 100%;
 }
 

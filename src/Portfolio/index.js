@@ -1,6 +1,8 @@
 const Portfolio = () => {
     return (
-        <p>It's a portfolio innit</p>
+        <div className="container">
+            <p>It's a portfolio innit</p>
+        </div>
     )
 }
 

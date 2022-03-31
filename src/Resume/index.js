@@ -4,7 +4,7 @@ import Skills from '../Skills';
 
 function Resume() {
   return (
-    <div id="resume">
+    <div className="container" id="resume">
       <Summary />
       <Skills />
     </div>
