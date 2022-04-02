@@ -1,8 +1,8 @@
 import "./index.css";
 import React from "react";
-import CaptionedIcon from "../Icons";
+import CaptionedIcon from "../../../Icons";
 
-class SkillCategory extends React.Component {
+export class SkillCategory extends React.Component {
     render() {
         return (
             <div className="skillCategory" id={this.props.name}>
@@ -11,7 +11,7 @@ class SkillCategory extends React.Component {
                     {
                         this.props.children.map(child => {
                             return (
-                              <li key={child}>
+                              <li key={child} className="captionedIconContainer">
                                 <CaptionedIcon name={child} />
                               </li>
                             )

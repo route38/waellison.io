@@ -1,12 +1,12 @@
 import './index.css';
 import Summary from '../Summary';
-import Skills from '../Skills';
+import SkillBlock from './SkillBlock';
 
 function Resume() {
   return (
     <div className="container" id="resume">
       <Summary />
-      <Skills />
+      <SkillBlock />
     </div>
   );
 }

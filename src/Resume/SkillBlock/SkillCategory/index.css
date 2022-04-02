@@ -4,6 +4,13 @@
     padding: 0 1rem;
 }
 
+@media (max-width: 800px) {
+    .skillCategory {
+        flex-basis: auto;
+        width: 100%;
+    }
+}
+
 .skillCategory h2 {
     margin: 0;
 }
@@ -14,12 +21,17 @@
     padding-left: 0;
 }
 
-.skillCategory ul li {
-    line-height: 28px;
-    display: flex;
+.captionedIconContainer {
+    height: 28px;
+    margin-bottom: 7px;
+}
+
+.captionedIconContainer span {
+    height: 28px;
+    display: inline-flex;
     align-items: center;
 }
 
-.skillCategory ul li img {
+.captionedIconContainer img {
     margin-right: 5px;
 }
