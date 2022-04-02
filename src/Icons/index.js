@@ -344,6 +344,14 @@ const CiCd = () => {
     )
 }
 
+const MacOs = () => {
+    return (
+        <span>
+            <img src='icons/os-apple.svg' className='captionedIcon' alt='macOS' /> macOS
+        </span>
+    )
+}
+
 const CaptionedIcon = (props) => {
     return iconTable[props.name];
 };
@@ -354,7 +362,7 @@ const iconTable = {
 	learning: <Learning />,
 	css: <CSSLang />,
 	docker: <Docker />,
-  access: <Access />,
+    access: <Access />,
 	googleCloud: <GoogleCloud />,
 	outlook: <Outlook />,
 	kubernetes: <Kubernetes />,
@@ -378,7 +386,7 @@ const iconTable = {
 	german: <German />,
 	medicalCoding: <MedicalCoding />,
 	jQuery: <Jquery />,
-  reactjs: <ReactJs />,
+    reactjs: <ReactJs />,
 	spanish: <Spanish />,
 	html: <HTMLLang />,
 	aws: <AWS />,
@@ -391,7 +399,8 @@ const iconTable = {
 	ceePlusPlus: <CeePlusPlus />,
 	french: <French />,
 	git: <Git />,
-  continuousIntegration: <CiCd />,
+    continuousIntegration: <CiCd />,
+    macOS: <MacOs />,
 };
 
 export {
@@ -425,7 +434,7 @@ export {
 	German,
 	MedicalCoding,
 	Jquery,
-  ReactJs,
+    ReactJs,
 	Spanish,
 	HTMLLang,
 	AWS,
@@ -438,7 +447,8 @@ export {
 	CeePlusPlus,
 	French,
 	Git,
-  CiCd,
+    CiCd,
+    MacOs,
 };
 
 export default CaptionedIcon;
