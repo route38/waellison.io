@@ -7,7 +7,7 @@ class EducationBlock extends React.Component {
         console.log(schools);
         return (
             <div>
-                <h1>Education</h1>
+                <h2>Education</h2>
                 {
                     Object.keys(schools).map(key => (<School key={key} {...schools[key]} />))
                 }

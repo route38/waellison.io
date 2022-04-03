@@ -12,7 +12,7 @@ class Job extends React.Component {
 
         return (
             <div className='event'>
-                <h2>{this.props.title}</h2>
+                <h3>{this.props.title}</h3>
                 <p>
                     {startYear} to {endYear} at {this.props.company}
                 </p>

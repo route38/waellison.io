@@ -7,7 +7,7 @@ class ExperienceBlock extends React.Component {
         console.log(jobs);
         return (
             <div>
-                <h1>Experience</h1>
+                <h2>Experience</h2>
                 {
                     Object.keys(jobs).map(key => (<Job key={key} {...jobs[key]} />))
                 }

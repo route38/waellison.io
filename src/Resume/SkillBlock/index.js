@@ -6,7 +6,7 @@ export class SkillBlock extends React.Component {
         let skills = this.props.skills;
         return (
             <div id="skills">
-                <h1>Skills</h1>
+                <h2>Skills</h2>
                 <div id="skillbox">
                     {Object.keys(skills).map(category => {
                         return <SkillCategory

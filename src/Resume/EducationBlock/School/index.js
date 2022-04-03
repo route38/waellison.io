@@ -13,7 +13,7 @@ class School extends React.Component {
 
         return (
             <div className='event'>
-                <h2>{this.props.institution}</h2>
+                <h3>{this.props.institution}</h3>
                 <p>
                     {dateStr}, {this.props.credential}
                 </p>

@@ -5,7 +5,7 @@ export class SkillCategory extends React.Component {
     render() {
         return (
             <div className="skillCategory" id={this.props.name}>
-                <h2>{this.props.name}</h2>
+                <h3>{this.props.name}</h3>
                 <ul>
                     {
                         this.props.children.map(child => {

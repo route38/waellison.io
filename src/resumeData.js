@@ -9,30 +9,20 @@ const resumeData = {
             "linux",
             "continuousIntegration"
         ],
-        "Web Development": [
+        "Libraries": [
             "flask",
             "jQuery",
             "reactjs",
             "restApi",
-            "html",
-            "css"
+            "postgreSQL",
         ],
         "Languages": [
             "python",
             "javaScript",
             "ceePlusPlus",
-            "postgreSQL",
             "english",
-            "french"
+            "french",
         ],
-        "General": [
-            "dependability",
-            "problemSolving",
-            "telecommuting",
-            "writing",
-            "excel",
-            "macOS"
-        ]
     },
     education: {
         fcc: {

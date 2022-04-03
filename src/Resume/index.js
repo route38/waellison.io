@@ -9,11 +9,11 @@ class Resume extends React.Component {
   render() {
     let resume = resumeData;
     return (
-      <div className="container" id="resume">
+      <div id="resume">
         <Summary text={resume.summary} />
         <SkillBlock skills={resume.skills} />
-        <ExperienceBlock jobs={resume.experience} />
         <EducationBlock schools={resume.education} />
+        <ExperienceBlock jobs={resume.experience} />
       </div>
     );
   }
