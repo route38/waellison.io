@@ -1,11 +1,9 @@
 import React from "react";
-import "./index.css";
 
 class School extends React.Component {
     render() {
         let startYear = this.props.startDate.split("-")[0];
         let endYear = "present";
-        let duties = this.props.duties;
         let competencies = this.props.competencies;
         if(this.props.endDate != null) {
             endYear = this.props.endDate.split("-")[0];
