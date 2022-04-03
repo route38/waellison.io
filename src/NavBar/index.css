@@ -6,8 +6,8 @@
     grid-row-end: 2;
     padding: 0.5rem 2rem;
     box-sizing: border-box;
-    color: white;
-    background-color: #222;
+    color: var(--foreground-dark);
+    background-color: var(--background-black);
     display: flex;
     align-items: center;
 }
@@ -39,4 +39,12 @@
 #navBarBody menu {
   margin: 0;
   padding: 0;
+}
+
+#navBarBrand .navLink:link, #navbarBrand .navLink:visited {
+  background-image: linear-gradient(var(--ua-azure) 50%, var(--ua-yellow) 50%);
+  background-clip: text;
+  color: transparent;
+  font-weight: 900;
+  text-transform: uppercase;
 }

@@ -5,8 +5,8 @@
   grid-column-end: 6;
   box-sizing: border-box;
   padding: 0.5rem 2rem;
-  color: white;
-  background-color: #222;
+  color: var(--foreground-dark);
+  background-color: var(--background-black);
   display: flex;
   align-items: center;
 }
