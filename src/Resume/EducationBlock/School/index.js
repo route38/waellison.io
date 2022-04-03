@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 
-class Job extends React.Component {
+class School extends React.Component {
     render() {
         let startYear = this.props.startDate.split("-")[0];
         let endYear = "present";
@@ -11,17 +11,15 @@ class Job extends React.Component {
             endYear = this.props.endDate.split("-")[0];
         }
 
+        let dateStr = startYear === endYear ? `${startYear}` : `${startYear} to ${endYear}`;
+
         return (
             <div className='event'>
-                <h2>{this.props.title}</h2>
+                <h2>{this.props.institution}</h2>
                 <p>
-                    {startYear} to {endYear} at {this.props.company}
+                    {dateStr}, {this.props.credential}
                 </p>
-                <ul>
-                    {
-                        duties.map((duty, idx) => (<li key={idx} dangerouslySetInnerHTML={{ __html: duty }} />))
-                    }
-                </ul>
+                <p dangerouslySetInnerHTML={{ __html: this.props.description }} />
                 <ul className='skillsUsed'>
                     {
                         competencies.map((skill, idx) =>
@@ -33,4 +31,5 @@ class Job extends React.Component {
     }
 }
 
-export default Job;
+export default School;
+

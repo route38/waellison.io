@@ -3,10 +3,6 @@ import React from "react";
 import SkillCategory from "./SkillCategory";
 
 export class SkillBlock extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         let skills = this.props.skills;
         return (
