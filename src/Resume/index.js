@@ -1,10 +1,9 @@
-import './index.css';
+import React from 'react';
+import resumeData from '../resumeData';
 import Summary from './Summary';
 import SkillBlock from './SkillBlock';
 import EducationBlock from './EducationBlock';
 import ExperienceBlock from './ExperienceBlock';
-import React from 'react';
-import resumeData from '../resumeData';
 
 class Resume extends React.Component {
   render() {

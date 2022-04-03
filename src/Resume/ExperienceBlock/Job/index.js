@@ -1,5 +1,4 @@
 import React from "react";
-import "./index.css";
 
 class Job extends React.Component {
     render() {
