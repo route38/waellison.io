@@ -3,7 +3,6 @@ const resumeData = {
     skills: {
         "DevOps": [
             "azure",
-            "googleCloud",
             "docker",
             "kubernetes",
             "git",
@@ -12,7 +11,6 @@ const resumeData = {
         ],
         "Web Development": [
             "flask",
-            "django",
             "jQuery",
             "reactjs",
             "restApi",
@@ -22,8 +20,7 @@ const resumeData = {
         "Languages": [
             "python",
             "javaScript",
-            "cee",
-            "ruby",
+            "ceePlusPlus",
             "postgreSQL",
             "english",
             "french"
