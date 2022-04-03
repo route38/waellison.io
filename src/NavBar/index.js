@@ -6,7 +6,7 @@ const NavBar = () => {
         <div id="navBar">
             <nav>
                 <div id='navBarBrand'>
-                    <NavLink className="navLink" to="/">
+                    <NavLink className="navLink" title="Україні Слава!" to="/">
                         William Ellison
                     </NavLink>
                 </div>
