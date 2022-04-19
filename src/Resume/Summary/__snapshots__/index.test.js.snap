@@ -13,7 +13,7 @@ exports[`renders correct summary component 1`] = `
   <p
     dangerouslySetInnerHTML={
       Object {
-        "__html": undefined,
+        "__html": "This is the summary.",
       }
     }
   />
