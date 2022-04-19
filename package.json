@@ -61,7 +61,8 @@
       "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
     },
     "coverageReporters": [
-      "text"
+      "text",
+      "lcov"
     ],
     "reporters": [
       "default",
