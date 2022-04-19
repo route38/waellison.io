@@ -8,5 +8,3 @@ ReactDOM.render(
   <App />,
   docRoot
 );
-
-//reportWebVitals(console.log);

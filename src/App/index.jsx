@@ -1,8 +1,8 @@
 import React from 'react';
-import Resume from './Resume';
-import Portfolio from './Portfolio';
-import NavBar from './NavBar';
-import Footer from './Footer';
+import Resume from '../Resume';
+import Portfolio from '../Portfolio';
+import NavBar from '../NavBar';
+import Footer from '../Footer';
 
 class App extends React.Component {
     render() {
