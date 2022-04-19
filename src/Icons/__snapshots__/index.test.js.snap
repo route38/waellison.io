@@ -1,89 +1,496 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`rendering of correct captioned icons renders correct icon for access 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for access 1`] = `
+<span>
+  <img
+    alt="Access"
+    className="captionedIcon"
+    src="/icons/software-Access.svg"
+  />
+   Access
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for aws 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for aws 1`] = `
+<span>
+  <img
+    alt="AWS"
+    className="captionedIcon"
+    src="/icons/cloud-AWS.svg"
+  />
+   AWS
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for azure 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for azure 1`] = `
+<span>
+  <img
+    alt="Azure"
+    className="captionedIcon"
+    src="/icons/cloud-azure.svg"
+  />
+   Azure
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for cee 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for cee 1`] = `
+<span>
+  <img
+    alt="C"
+    className="captionedIcon"
+    src="/icons/language-Cee.svg"
+  />
+   C
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for ceePlusPlus 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for ceePlusPlus 1`] = `
+<span>
+  <img
+    alt="C++"
+    className="captionedIcon"
+    src="/icons/language-CeePlusPlus.svg"
+  />
+   C++
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for continuousIntegration 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for continuousIntegration 1`] = `
+<span>
+  <img
+    alt="Continuous integration"
+    className="captionedIcon"
+    src="/icons/skill-devops.svg"
+  />
+   
+  <abbr
+    title="Continuous integration"
+  >
+    CI
+  </abbr>
+  /
+  <abbr
+    title="Continuous delivery"
+  >
+    CD
+  </abbr>
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for css 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for css 1`] = `
+<span>
+  <img
+    alt="CSS"
+    className="captionedIcon"
+    src="/icons/language-CSS.svg"
+  />
+   CSS
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for dependability 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for dependability 1`] = `
+<span>
+  <img
+    alt="Dependability"
+    className="captionedIcon"
+    src="/icons/personal-Dependability.svg"
+  />
+   Dependability
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for devops 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for devops 1`] = `
+<span>
+  <img
+    alt="Devops"
+    className="captionedIcon"
+    src="/icons/skill-devops.svg"
+  />
+   DevOps
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for django 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for django 1`] = `
+<span>
+  <img
+    alt="Django"
+    className="captionedIcon"
+    src="/icons/framework-django.svg"
+  />
+   Django
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for docker 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for docker 1`] = `
+<span>
+  <img
+    alt="Docker"
+    className="captionedIcon"
+    src="/icons/devops-docker.svg"
+  />
+   Docker
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for english 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for english 1`] = `
+<span>
+  <img
+    alt="USA"
+    className="captionedIcon"
+    src="/icons/flag-USA.svg"
+  />
+   English
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for excel 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for excel 1`] = `
+<span>
+  <img
+    alt="Excel"
+    className="captionedIcon"
+    src="/icons/software-Excel.svg"
+  />
+   Microsoft Excel
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for flask 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for flask 1`] = `
+<span>
+  <img
+    alt="Flask"
+    className="captionedIcon"
+    src="/icons/framework-flask.svg"
+  />
+   Flask
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for french 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for french 1`] = `
+<span>
+  <img
+    alt="French"
+    className="captionedIcon"
+    src="/icons/flag-france.svg"
+  />
+   French
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for german 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for german 1`] = `
+<span>
+  <img
+    alt="German"
+    className="captionedIcon"
+    src="/icons/flag-germany.svg"
+  />
+   German
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for git 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for git 1`] = `
+<span>
+  <img
+    alt="Git"
+    className="captionedIcon"
+    src="/icons/software-Git.svg"
+  />
+   Git
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for googleCloud 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for googleCloud 1`] = `
+<span>
+  <img
+    alt="GoogleCloud"
+    className="captionedIcon"
+    src="/icons/cloud-googleCloud.svg"
+  />
+   Google Cloud
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for html 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for html 1`] = `
+<span>
+  <img
+    alt="HTML"
+    className="captionedIcon"
+    src="/icons/language-HTML.svg"
+  />
+   HTML
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for jQuery 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for jQuery 1`] = `
+<span>
+  <img
+    alt="jQuery"
+    className="captionedIcon"
+    src="/icons/library-jquery.svg"
+  />
+   jQuery
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for javaScript 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for javaScript 1`] = `
+<span>
+  <img
+    alt="JavaScript"
+    className="captionedIcon"
+    src="/icons/language-javaScript.svg"
+  />
+   JavaScript
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for kubernetes 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for kubernetes 1`] = `
+<span>
+  <img
+    alt="Kubernetes"
+    className="captionedIcon"
+    src="/icons/devops-kubernetes.svg"
+  />
+   Kubernetes
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for learning 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for learning 1`] = `
+<span>
+  <img
+    alt="Learning"
+    className="captionedIcon"
+    src="/icons/personal-Learning.svg"
+  />
+   Learning
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for linux 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for linux 1`] = `
+<span>
+  <img
+    alt="Linux"
+    className="captionedIcon"
+    src="/icons/skill-linux.svg"
+  />
+   Linux
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for macOS 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for macOS 1`] = `
+<span>
+  <img
+    alt="macOS"
+    className="captionedIcon"
+    src="/icons/os-apple.svg"
+  />
+   macOS
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for medicalCoding 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for medicalCoding 1`] = `
+<span>
+  <img
+    alt="Medical Coding"
+    className="captionedIcon"
+    src="/icons/skill-medicalCoding.svg"
+  />
+   MedicalCoding
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for outlook 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for outlook 1`] = `
+<span>
+  <img
+    alt="Outlook"
+    className="captionedIcon"
+    src="/icons/software-Outlook.svg"
+  />
+   Microsoft Outlook
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for postgreSQL 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for postgreSQL 1`] = `
+<span>
+  <img
+    alt="PostgreSQL"
+    className="captionedIcon"
+    src="/icons/language-postgreSQL.svg"
+  />
+   PostgreSQL
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for problemSolving 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for problemSolving 1`] = `
+<span>
+  <img
+    alt="ProblemSolving"
+    className="captionedIcon"
+    src="/icons/personal-problemSolving.svg"
+  />
+   Problem Solving
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for python 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for python 1`] = `
+<span>
+  <img
+    alt="Python"
+    className="captionedIcon"
+    src="/icons/language-python.svg"
+  />
+   Python
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for reactjs 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for reactjs 1`] = `
+<span>
+  <img
+    alt="React"
+    className="captionedIcon"
+    src="/icons/library-react.svg"
+  />
+   React
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for restApi 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for restApi 1`] = `
+<span>
+  <img
+    alt="RestApi"
+    className="captionedIcon"
+    src="/icons/skill-RestApi.svg"
+  />
+   REST APIs
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for ruby 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for ruby 1`] = `
+<span>
+  <img
+    alt="Ruby"
+    className="captionedIcon"
+    src="/icons/language-ruby.svg"
+  />
+   Ruby
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for sinatra 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for sinatra 1`] = `
+<span>
+  <img
+    alt="Sinatra"
+    className="captionedIcon"
+    src="/icons/framework-sinatra.svg"
+  />
+   Sinatra
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for softwareDevelopment 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for softwareDevelopment 1`] = `
+<span>
+  <img
+    alt="SoftwareDevelopment"
+    className="captionedIcon"
+    src="/icons/skill-softwareDevelopment.svg"
+  />
+   Software Development
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for spanish 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for spanish 1`] = `
+<span>
+  <img
+    alt="Mexico"
+    className="captionedIcon"
+    src="/icons/flag-mexico.svg"
+  />
+   Mexico
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for swahili 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for swahili 1`] = `
+<span>
+  <img
+    alt="Tanzania"
+    className="captionedIcon"
+    src="/icons/flag-tanzania.svg"
+  />
+   Swahili
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for teamwork 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for teamwork 1`] = `
+<span>
+  <img
+    alt="Teamwork"
+    className="captionedIcon"
+    src="/icons/personal-teamwork.svg"
+  />
+   Teamwork
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for telecommuting 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for telecommuting 1`] = `
+<span>
+  <img
+    alt="Telecommuting"
+    className="captionedIcon"
+    src="/icons/personal-telecommuting.svg"
+  />
+   Telecommuting
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for timeManagement 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for timeManagement 1`] = `
+<span>
+  <img
+    alt="TimeManagement"
+    className="captionedIcon"
+    src="/icons/personal-timeManagement.svg"
+  />
+   Time Management
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for vsCode 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for vsCode 1`] = `
+<span>
+  <img
+    alt="VsCode"
+    className="captionedIcon"
+    src="/icons/software-VsCode.svg"
+  />
+   Visual Studio Code
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for windows 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for windows 1`] = `
+<span>
+  <img
+    alt="Windows"
+    className="captionedIcon"
+    src="/icons/software-windowsTen.svg"
+  />
+   Windows
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for word 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for word 1`] = `
+<span>
+  <img
+    alt="Word"
+    className="captionedIcon"
+    src="/icons/software-Word.svg"
+  />
+   Microsoft Word
+</span>
+`;
 
-exports[`rendering of correct captioned icons renders correct icon for writing 1`] = `null`;
+exports[`rendering of correct captioned icons renders correct icon for writing 1`] = `
+<span>
+  <img
+    alt="Writing"
+    className="captionedIcon"
+    src="/icons/skill-Writing.svg"
+  />
+   Writing
+</span>
+`;

@@ -1,9 +1,10 @@
+import React from 'react';
 import "./index.css";
 
 const Flask = () => {
     return (
         <span>
-            <img src='icons/framework-flask.svg' className='captionedIcon' alt='Flask' /> Flask
+            <img src='/icons/framework-flask.svg' className='captionedIcon' alt='Flask' /> Flask
         </span>
     )
 }
@@ -11,7 +12,7 @@ const Flask = () => {
 const Python = () => {
     return (
         <span>
-            <img src='icons/language-python.svg' className='captionedIcon' alt='Python' /> Python
+            <img src='/icons/language-python.svg' className='captionedIcon' alt='Python' /> Python
         </span>
     )
 }
@@ -19,7 +20,7 @@ const Python = () => {
 const Learning = () => {
     return (
         <span>
-            <img src='icons/personal-Learning.svg' className='captionedIcon' alt='Learning' /> Learning
+            <img src='/icons/personal-Learning.svg' className='captionedIcon' alt='Learning' /> Learning
         </span>
     )
 }
@@ -27,7 +28,7 @@ const Learning = () => {
 const CSSLang = () => {
     return (
         <span>
-            <img src='icons/language-CSS.svg' className='captionedIcon' alt='CSS' /> CSS
+            <img src='/icons/language-CSS.svg' className='captionedIcon' alt='CSS' /> CSS
         </span>
     )
 }
@@ -35,7 +36,7 @@ const CSSLang = () => {
 const Docker = () => {
     return (
         <span>
-            <img src='icons/devops-docker.svg' className='captionedIcon' alt='Docker' /> Docker
+            <img src='/icons/devops-docker.svg' className='captionedIcon' alt='Docker' /> Docker
         </span>
     )
 }
@@ -43,7 +44,7 @@ const Docker = () => {
 const Access = () => {
     return (
         <span>
-            <img src='icons/software-Access.svg' className='captionedIcon' alt='Access' /> Access
+            <img src='/icons/software-Access.svg' className='captionedIcon' alt='Access' /> Access
         </span>
     )
 }
@@ -51,7 +52,7 @@ const Access = () => {
 const GoogleCloud = () => {
     return (
         <span>
-            <img src='icons/cloud-googleCloud.svg' className='captionedIcon' alt='GoogleCloud' /> Google Cloud
+            <img src='/icons/cloud-googleCloud.svg' className='captionedIcon' alt='GoogleCloud' /> Google Cloud
         </span>
     )
 }
@@ -59,7 +60,7 @@ const GoogleCloud = () => {
 const Outlook = () => {
     return (
         <span>
-            <img src='icons/software-Outlook.svg' className='captionedIcon' alt='Outlook' /> Microsoft Outlook
+            <img src='/icons/software-Outlook.svg' className='captionedIcon' alt='Outlook' /> Microsoft Outlook
         </span>
     )
 }
@@ -67,7 +68,7 @@ const Outlook = () => {
 const Kubernetes = () => {
     return (
         <span>
-            <img src='icons/devops-kubernetes.svg' className='captionedIcon' alt='Kubernetes' /> Kubernetes
+            <img src='/icons/devops-kubernetes.svg' className='captionedIcon' alt='Kubernetes' /> Kubernetes
         </span>
     )
 }
@@ -75,7 +76,7 @@ const Kubernetes = () => {
 const Ruby = () => {
     return (
         <span>
-            <img src='icons/language-ruby.svg' className='captionedIcon' alt='Ruby' /> Ruby
+            <img src='/icons/language-ruby.svg' className='captionedIcon' alt='Ruby' /> Ruby
         </span>
     )
 }
@@ -83,7 +84,7 @@ const Ruby = () => {
 const SoftwareDevelopment = () => {
     return (
         <span>
-            <img src='icons/skill-softwareDevelopment.svg' className='captionedIcon' alt='SoftwareDevelopment' /> Software Development
+            <img src='/icons/skill-softwareDevelopment.svg' className='captionedIcon' alt='SoftwareDevelopment' /> Software Development
         </span>
     )
 }
@@ -91,7 +92,7 @@ const SoftwareDevelopment = () => {
 const Teamwork = () => {
     return (
         <span>
-            <img src='icons/personal-teamwork.svg' className='captionedIcon' alt='Teamwork' /> Teamwork
+            <img src='/icons/personal-teamwork.svg' className='captionedIcon' alt='Teamwork' /> Teamwork
         </span>
     )
 }
@@ -99,7 +100,7 @@ const Teamwork = () => {
 const Word = () => {
     return (
         <span>
-            <img src='icons/software-Word.svg' className='captionedIcon' alt='Word' /> Microsoft Word
+            <img src='/icons/software-Word.svg' className='captionedIcon' alt='Word' /> Microsoft Word
         </span>
     )
 }
@@ -107,7 +108,7 @@ const Word = () => {
 const PostgreSQL = () => {
     return (
         <span>
-            <img src='icons/language-postgreSQL.svg' className='captionedIcon' alt='PostgreSQL' /> PostgreSQL
+            <img src='/icons/language-postgreSQL.svg' className='captionedIcon' alt='PostgreSQL' /> PostgreSQL
         </span>
     )
 }
@@ -115,7 +116,7 @@ const PostgreSQL = () => {
 const VsCode = () => {
     return (
         <span>
-            <img src='icons/software-VsCode.svg' className='captionedIcon' alt='VsCode' /> Visual Studio Code
+            <img src='/icons/software-VsCode.svg' className='captionedIcon' alt='VsCode' /> Visual Studio Code
         </span>
     )
 }
@@ -123,7 +124,7 @@ const VsCode = () => {
 const Django = () => {
     return (
         <span>
-            <img src='icons/framework-django.svg' className='captionedIcon' alt='Django' /> Django
+            <img src='/icons/framework-django.svg' className='captionedIcon' alt='Django' /> Django
         </span>
     )
 }
@@ -131,7 +132,7 @@ const Django = () => {
 const RestApi = () => {
     return (
         <span>
-            <img src='icons/skill-RestApi.svg' className='captionedIcon' alt='RestApi' /> REST APIs
+            <img src='/icons/skill-RestApi.svg' className='captionedIcon' alt='RestApi' /> REST APIs
         </span>
     )
 }
@@ -139,7 +140,7 @@ const RestApi = () => {
 const Linux = () => {
     return (
         <span>
-            <img src='icons/skill-linux.svg' className='captionedIcon' alt='Linux' /> Linux
+            <img src='/icons/skill-linux.svg' className='captionedIcon' alt='Linux' /> Linux
         </span>
     )
 }
@@ -147,7 +148,7 @@ const Linux = () => {
 const ProblemSolving = () => {
     return (
         <span>
-            <img src='icons/personal-problemSolving.svg' className='captionedIcon' alt='ProblemSolving' /> Problem Solving
+            <img src='/icons/personal-problemSolving.svg' className='captionedIcon' alt='ProblemSolving' /> Problem Solving
         </span>
     )
 }
@@ -155,7 +156,7 @@ const ProblemSolving = () => {
 const Excel = () => {
     return (
         <span>
-            <img src='icons/software-Excel.svg' className='captionedIcon' alt='Excel' /> Microsoft Excel
+            <img src='/icons/software-Excel.svg' className='captionedIcon' alt='Excel' /> Microsoft Excel
         </span>
     )
 }
@@ -163,7 +164,7 @@ const Excel = () => {
 const Swahili = () => {
     return (
         <span>
-            <img src='icons/flag-tanzania.svg' className='captionedIcon' alt='Tanzania' /> Swahili
+            <img src='/icons/flag-tanzania.svg' className='captionedIcon' alt='Tanzania' /> Swahili
         </span>
     )
 }
@@ -171,7 +172,7 @@ const Swahili = () => {
 const English = () => {
     return (
         <span>
-            <img src='icons/flag-USA.svg' className='captionedIcon' alt='USA' /> English
+            <img src='/icons/flag-USA.svg' className='captionedIcon' alt='USA' /> English
         </span>
     )
 }
@@ -179,7 +180,7 @@ const English = () => {
 const TimeManagement = () => {
     return (
         <span>
-            <img src='icons/personal-timeManagement.svg' className='captionedIcon' alt='TimeManagement' /> Time Management
+            <img src='/icons/personal-timeManagement.svg' className='captionedIcon' alt='TimeManagement' /> Time Management
         </span>
     )
 }
@@ -187,7 +188,7 @@ const TimeManagement = () => {
 const JavaScript = () => {
     return (
         <span>
-            <img src='icons/language-javaScript.svg' className='captionedIcon' alt='JavaScript' /> JavaScript
+            <img src='/icons/language-javaScript.svg' className='captionedIcon' alt='JavaScript' /> JavaScript
         </span>
     )
 }
@@ -195,7 +196,7 @@ const JavaScript = () => {
 const Windows = () => {
     return (
         <span>
-            <img src='icons/software-windowsTen.svg' className='captionedIcon' alt='Windows' /> Windows
+            <img src='/icons/software-windowsTen.svg' className='captionedIcon' alt='Windows' /> Windows
         </span>
     )
 }
@@ -203,7 +204,7 @@ const Windows = () => {
 const Dependability = () => {
     return (
         <span>
-            <img src='icons/personal-Dependability.svg' className='captionedIcon' alt='Dependability' /> Dependability
+            <img src='/icons/personal-Dependability.svg' className='captionedIcon' alt='Dependability' /> Dependability
         </span>
     )
 }
@@ -211,7 +212,7 @@ const Dependability = () => {
 const German = () => {
     return (
         <span>
-            <img src='icons/flag-germany.svg' className='captionedIcon' alt='German' /> German
+            <img src='/icons/flag-germany.svg' className='captionedIcon' alt='German' /> German
         </span>
     )
 }
@@ -219,7 +220,7 @@ const German = () => {
 const MedicalCoding = () => {
     return (
         <span>
-            <img src='icons/skill-medicalCoding.svg' className='captionedIcon' alt='MedicalCoding' /> MedicalCoding
+            <img src='/icons/skill-medicalCoding.svg' className='captionedIcon' alt='Medical Coding' /> MedicalCoding
         </span>
     )
 }
@@ -227,7 +228,7 @@ const MedicalCoding = () => {
 const Jquery = () => {
     return (
         <span>
-            <img src='icons/library-jquery.svg' className='captionedIcon' alt='jQuery' /> jQuery
+            <img src='/icons/library-jquery.svg' className='captionedIcon' alt='jQuery' /> jQuery
         </span>
     )
 }
@@ -235,7 +236,7 @@ const Jquery = () => {
 const ReactJs = () => {
     return (
         <span>
-            <img src='icons/library-react.svg' className='captionedIcon' alt='React' /> React
+            <img src='/icons/library-react.svg' className='captionedIcon' alt='React' /> React
         </span>
     )
 }
@@ -243,7 +244,7 @@ const ReactJs = () => {
 const Spanish = () => {
     return (
         <span>
-            <img src='icons/flag-mexico.svg' className='captionedIcon' alt='Mexico' /> Mexico
+            <img src='/icons/flag-mexico.svg' className='captionedIcon' alt='Mexico' /> Mexico
         </span>
     )
 }
@@ -251,7 +252,7 @@ const Spanish = () => {
 const HTMLLang = () => {
     return (
         <span>
-            <img src='icons/language-HTML.svg' className='captionedIcon' alt='HTML' /> HTML
+            <img src='/icons/language-HTML.svg' className='captionedIcon' alt='HTML' /> HTML
         </span>
     )
 }
@@ -259,7 +260,7 @@ const HTMLLang = () => {
 const AWS = () => {
     return (
         <span>
-            <img src='icons/cloud-AWS.svg' className='captionedIcon' alt='AWS' /> AWS
+            <img src='/icons/cloud-AWS.svg' className='captionedIcon' alt='AWS' /> AWS
         </span>
     )
 }
@@ -267,7 +268,7 @@ const AWS = () => {
 const DevOps = () => {
     return (
         <span>
-            <img src='icons/skill-devops.svg' className='captionedIcon' alt='Devops' /> DevOps
+            <img src='/icons/skill-devops.svg' className='captionedIcon' alt='Devops' /> DevOps
         </span>
     )
 }
@@ -275,7 +276,7 @@ const DevOps = () => {
 const Telecommuting = () => {
     return (
         <span>
-            <img src='icons/personal-telecommuting.svg' className='captionedIcon' alt='Telecommuting' /> Telecommuting
+            <img src='/icons/personal-telecommuting.svg' className='captionedIcon' alt='Telecommuting' /> Telecommuting
         </span>
     )
 }
@@ -283,7 +284,7 @@ const Telecommuting = () => {
 const Azure = () => {
     return (
         <span>
-            <img src='icons/cloud-azure.svg' className='captionedIcon' alt='Azure' /> Azure
+            <img src='/icons/cloud-azure.svg' className='captionedIcon' alt='Azure' /> Azure
         </span>
     )
 }
@@ -291,7 +292,7 @@ const Azure = () => {
 const Cee = () => {
     return (
         <span>
-            <img src='icons/language-Cee.svg' className='captionedIcon' alt='Cee' /> C
+            <img src='/icons/language-Cee.svg' className='captionedIcon' alt='C' /> C
         </span>
     )
 }
@@ -299,7 +300,7 @@ const Cee = () => {
 const Writing = () => {
     return (
         <span>
-            <img src='icons/skill-Writing.svg' className='captionedIcon' alt='Writing' /> Writing
+            <img src='/icons/skill-Writing.svg' className='captionedIcon' alt='Writing' /> Writing
         </span>
     )
 }
@@ -307,7 +308,7 @@ const Writing = () => {
 const Sinatra = () => {
     return (
         <span>
-            <img src='icons/framework-sinatra.svg' className='captionedIcon' alt='Sinatra' /> Sinatra
+            <img src='/icons/framework-sinatra.svg' className='captionedIcon' alt='Sinatra' /> Sinatra
         </span>
     )
 }
@@ -315,7 +316,7 @@ const Sinatra = () => {
 const CeePlusPlus = () => {
     return (
         <span>
-            <img src='icons/language-CeePlusPlus.svg' className='captionedIcon' alt='C++' /> C++
+            <img src='/icons/language-CeePlusPlus.svg' className='captionedIcon' alt='C++' /> C++
         </span>
     )
 }
@@ -323,7 +324,7 @@ const CeePlusPlus = () => {
 const French = () => {
     return (
         <span>
-            <img src='icons/flag-france.svg' className='captionedIcon' alt='French' /> French
+            <img src='/icons/flag-france.svg' className='captionedIcon' alt='French' /> French
         </span>
     )
 }
@@ -331,7 +332,7 @@ const French = () => {
 const Git = () => {
     return (
         <span>
-            <img src='icons/software-Git.svg' className='captionedIcon' alt='Git' /> Git
+            <img src='/icons/software-Git.svg' className='captionedIcon' alt='Git' /> Git
         </span>
     )
 }
@@ -339,7 +340,7 @@ const Git = () => {
 const CiCd = () => {
     return (
         <span>
-            <img src='icons/skill-devops.svg' className='captionedIcon' alt='Continuous integration' /> <abbr title='Continuous integration'>CI</abbr>/<abbr title='Continuous delivery'>CD</abbr>
+            <img src='/icons/skill-devops.svg' className='captionedIcon' alt='Continuous integration' /> <abbr title='Continuous integration'>CI</abbr>/<abbr title='Continuous delivery'>CD</abbr>
         </span>
     )
 }
@@ -347,7 +348,7 @@ const CiCd = () => {
 const MacOs = () => {
     return (
         <span>
-            <img src='icons/os-apple.svg' className='captionedIcon' alt='macOS' /> macOS
+            <img src='/icons/os-apple.svg' className='captionedIcon' alt='macOS' /> macOS
         </span>
     )
 }
