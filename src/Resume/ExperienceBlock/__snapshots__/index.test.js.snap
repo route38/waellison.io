@@ -1,0 +1,344 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correct school component 1`] = `
+<div>
+  <h2>
+    Experience
+  </h2>
+  <div
+    className="event"
+  >
+    <h3>
+      Accounts Receivable Representative
+    </h3>
+    <p>
+      2019
+       to 
+      present
+       at 
+      University Physicians' Association
+    </p>
+    <ul>
+      <li
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Averaged 30 claims per day with 98% accuracy.",
+          }
+        }
+      />
+      <li
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "90% remote since March 2020.",
+          }
+        }
+      />
+      <li
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Trained other representatives on writing appeal letters.",
+          }
+        }
+      />
+      <li
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Responsible for reducing outstanding claim volume by 50% within one quarter.",
+          }
+        }
+      />
+      <li
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Recognized as my team's point of knowledge for questions on diagnosis and procedure coding.",
+          }
+        }
+      />
+      <li
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Submitted more than 300 appeals to all major payers, overturning 70% of denials.",
+          }
+        }
+      />
+    </ul>
+    <ul
+      className="skillsUsed"
+    >
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Telecommuting",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Medical coding",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Medical billing",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Writing",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Teamwork",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Time management",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Detail orientation",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Microsoft Excel",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Microsoft Word",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Microsoft Access",
+          }
+        }
+      />
+    </ul>
+  </div>
+  <div
+    className="event"
+  >
+    <h3>
+      Medical Billing Representative
+    </h3>
+    <p>
+      2018
+       to 
+      2019
+       at 
+      University Physicians' Association
+    </p>
+    <ul>
+      <li
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Averaged 1,200 line items per day with 100% accuracy.",
+          }
+        }
+      />
+      <li
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Worked in a diverse array of medical specialties including surgery, oncology, and public health.",
+          }
+        }
+      />
+      <li
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Made approved edits in accordance with company and payer guidelines.",
+          }
+        }
+      />
+      <li
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Contributed to a team responsible for reviewing more than 8,000 line items per day.",
+          }
+        }
+      />
+    </ul>
+    <ul
+      className="skillsUsed"
+    >
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Medical billing",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Medical coding",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Data entry",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Time management",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Teamwork",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Microsoft Excel",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Detail orientation",
+          }
+        }
+      />
+    </ul>
+  </div>
+  <div
+    className="event"
+  >
+    <h3>
+      Office Cleaner
+    </h3>
+    <p>
+      2006
+       to 
+      2018
+       at 
+      We Clean It CJS
+    </p>
+    <ul>
+      <li
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Cleaned a total of 50,000 sq ft of office space per night.",
+          }
+        }
+      />
+      <li
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Achieved a complaint rate of 0% for 7 consecutive years.",
+          }
+        }
+      />
+      <li
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Created the company website using WordPress and the <abbr title='Linux, nginx, MariaDB, and PHP'>LEMP</abbr> stack.",
+          }
+        }
+      />
+    </ul>
+    <ul
+      className="skillsUsed"
+    >
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Time management",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Teamwork",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Detail orientation",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "WordPress",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Linux",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "nginx",
+          }
+        }
+      />
+    </ul>
+  </div>
+</div>
+`;
