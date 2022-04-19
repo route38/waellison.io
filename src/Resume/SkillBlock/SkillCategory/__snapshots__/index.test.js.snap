@@ -18,7 +18,8 @@ exports[`renders correct skill category component 1`] = `
           className="captionedIcon"
           src="/icons/language-python.svg"
         />
-         Python
+         
+        Python
       </span>
     </li>
     <li
@@ -30,7 +31,8 @@ exports[`renders correct skill category component 1`] = `
           className="captionedIcon"
           src="/icons/language-javaScript.svg"
         />
-         JavaScript
+         
+        JavaScript
       </span>
     </li>
     <li
@@ -42,7 +44,8 @@ exports[`renders correct skill category component 1`] = `
           className="captionedIcon"
           src="/icons/language-CeePlusPlus.svg"
         />
-         C++
+         
+        C++
       </span>
     </li>
     <li
@@ -54,7 +57,8 @@ exports[`renders correct skill category component 1`] = `
           className="captionedIcon"
           src="/icons/flag-USA.svg"
         />
-         English
+         
+        English
       </span>
     </li>
     <li
@@ -66,7 +70,8 @@ exports[`renders correct skill category component 1`] = `
           className="captionedIcon"
           src="/icons/flag-france.svg"
         />
-         French
+         
+        French
       </span>
     </li>
   </ul>

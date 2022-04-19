@@ -7,7 +7,8 @@ exports[`rendering of correct captioned icons renders correct icon for access 1`
     className="captionedIcon"
     src="/icons/software-Access.svg"
   />
-   Access
+   
+  Access
 </span>
 `;
 
@@ -29,7 +30,8 @@ exports[`rendering of correct captioned icons renders correct icon for azure 1`]
     className="captionedIcon"
     src="/icons/cloud-azure.svg"
   />
-   Azure
+   
+  Azure
 </span>
 `;
 
@@ -51,7 +53,8 @@ exports[`rendering of correct captioned icons renders correct icon for ceePlusPl
     className="captionedIcon"
     src="/icons/language-CeePlusPlus.svg"
   />
-   C++
+   
+  C++
 </span>
 `;
 
@@ -84,7 +87,8 @@ exports[`rendering of correct captioned icons renders correct icon for css 1`] =
     className="captionedIcon"
     src="/icons/language-CSS.svg"
   />
-   CSS
+   
+  CSS
 </span>
 `;
 
@@ -95,7 +99,8 @@ exports[`rendering of correct captioned icons renders correct icon for dependabi
     className="captionedIcon"
     src="/icons/personal-Dependability.svg"
   />
-   Dependability
+   
+  Dependability
 </span>
 `;
 
@@ -106,7 +111,8 @@ exports[`rendering of correct captioned icons renders correct icon for devops 1`
     className="captionedIcon"
     src="/icons/skill-devops.svg"
   />
-   DevOps
+   
+  DevOps
 </span>
 `;
 
@@ -117,7 +123,8 @@ exports[`rendering of correct captioned icons renders correct icon for django 1`
     className="captionedIcon"
     src="/icons/framework-django.svg"
   />
-   Django
+   
+  Django
 </span>
 `;
 
@@ -128,7 +135,8 @@ exports[`rendering of correct captioned icons renders correct icon for docker 1`
     className="captionedIcon"
     src="/icons/devops-docker.svg"
   />
-   Docker
+   
+  Docker
 </span>
 `;
 
@@ -139,7 +147,8 @@ exports[`rendering of correct captioned icons renders correct icon for english 1
     className="captionedIcon"
     src="/icons/flag-USA.svg"
   />
-   English
+   
+  English
 </span>
 `;
 
@@ -150,7 +159,8 @@ exports[`rendering of correct captioned icons renders correct icon for excel 1`]
     className="captionedIcon"
     src="/icons/software-Excel.svg"
   />
-   Microsoft Excel
+   
+  Microsoft Excel
 </span>
 `;
 
@@ -161,7 +171,8 @@ exports[`rendering of correct captioned icons renders correct icon for flask 1`]
     className="captionedIcon"
     src="/icons/framework-flask.svg"
   />
-   Flask
+   
+  Flask
 </span>
 `;
 
@@ -172,7 +183,8 @@ exports[`rendering of correct captioned icons renders correct icon for french 1`
     className="captionedIcon"
     src="/icons/flag-france.svg"
   />
-   French
+   
+  French
 </span>
 `;
 
@@ -183,7 +195,8 @@ exports[`rendering of correct captioned icons renders correct icon for german 1`
     className="captionedIcon"
     src="/icons/flag-germany.svg"
   />
-   German
+   
+  German
 </span>
 `;
 
@@ -194,7 +207,8 @@ exports[`rendering of correct captioned icons renders correct icon for git 1`] =
     className="captionedIcon"
     src="/icons/software-Git.svg"
   />
-   Git
+   
+  Git
 </span>
 `;
 
@@ -205,7 +219,8 @@ exports[`rendering of correct captioned icons renders correct icon for googleClo
     className="captionedIcon"
     src="/icons/cloud-googleCloud.svg"
   />
-   Google Cloud
+   
+  Google Cloud
 </span>
 `;
 
@@ -216,7 +231,8 @@ exports[`rendering of correct captioned icons renders correct icon for html 1`] 
     className="captionedIcon"
     src="/icons/language-HTML.svg"
   />
-   HTML
+   
+  HTML
 </span>
 `;
 
@@ -227,7 +243,8 @@ exports[`rendering of correct captioned icons renders correct icon for jQuery 1`
     className="captionedIcon"
     src="/icons/library-jquery.svg"
   />
-   jQuery
+   
+  jQuery
 </span>
 `;
 
@@ -238,7 +255,8 @@ exports[`rendering of correct captioned icons renders correct icon for javaScrip
     className="captionedIcon"
     src="/icons/language-javaScript.svg"
   />
-   JavaScript
+   
+  JavaScript
 </span>
 `;
 
@@ -249,7 +267,8 @@ exports[`rendering of correct captioned icons renders correct icon for kubernete
     className="captionedIcon"
     src="/icons/devops-kubernetes.svg"
   />
-   Kubernetes
+   
+  Kubernetes
 </span>
 `;
 
@@ -260,7 +279,8 @@ exports[`rendering of correct captioned icons renders correct icon for learning 
     className="captionedIcon"
     src="/icons/personal-Learning.svg"
   />
-   Learning
+   
+  Learning
 </span>
 `;
 
@@ -271,7 +291,8 @@ exports[`rendering of correct captioned icons renders correct icon for linux 1`]
     className="captionedIcon"
     src="/icons/skill-linux.svg"
   />
-   Linux
+   
+  Linux
 </span>
 `;
 
@@ -282,7 +303,8 @@ exports[`rendering of correct captioned icons renders correct icon for macOS 1`]
     className="captionedIcon"
     src="/icons/os-apple.svg"
   />
-   macOS
+   
+  macOS
 </span>
 `;
 
@@ -293,7 +315,8 @@ exports[`rendering of correct captioned icons renders correct icon for medicalCo
     className="captionedIcon"
     src="/icons/skill-medicalCoding.svg"
   />
-   MedicalCoding
+   
+  MedicalCoding
 </span>
 `;
 
@@ -304,7 +327,8 @@ exports[`rendering of correct captioned icons renders correct icon for outlook 1
     className="captionedIcon"
     src="/icons/software-Outlook.svg"
   />
-   Microsoft Outlook
+   
+  Microsoft Outlook
 </span>
 `;
 
@@ -315,7 +339,8 @@ exports[`rendering of correct captioned icons renders correct icon for postgreSQ
     className="captionedIcon"
     src="/icons/language-postgreSQL.svg"
   />
-   PostgreSQL
+   
+  PostgreSQL
 </span>
 `;
 
@@ -326,7 +351,8 @@ exports[`rendering of correct captioned icons renders correct icon for problemSo
     className="captionedIcon"
     src="/icons/personal-problemSolving.svg"
   />
-   Problem Solving
+   
+  Problem Solving
 </span>
 `;
 
@@ -337,7 +363,8 @@ exports[`rendering of correct captioned icons renders correct icon for python 1`
     className="captionedIcon"
     src="/icons/language-python.svg"
   />
-   Python
+   
+  Python
 </span>
 `;
 
@@ -348,7 +375,8 @@ exports[`rendering of correct captioned icons renders correct icon for reactjs 1
     className="captionedIcon"
     src="/icons/library-react.svg"
   />
-   React
+   
+  React
 </span>
 `;
 
@@ -359,7 +387,8 @@ exports[`rendering of correct captioned icons renders correct icon for restApi 1
     className="captionedIcon"
     src="/icons/skill-RestApi.svg"
   />
-   REST APIs
+   
+  REST APIs
 </span>
 `;
 
@@ -370,7 +399,8 @@ exports[`rendering of correct captioned icons renders correct icon for ruby 1`] 
     className="captionedIcon"
     src="/icons/language-ruby.svg"
   />
-   Ruby
+   
+  Ruby
 </span>
 `;
 
@@ -381,7 +411,8 @@ exports[`rendering of correct captioned icons renders correct icon for sinatra 1
     className="captionedIcon"
     src="/icons/framework-sinatra.svg"
   />
-   Sinatra
+   
+  Sinatra
 </span>
 `;
 
@@ -392,7 +423,8 @@ exports[`rendering of correct captioned icons renders correct icon for softwareD
     className="captionedIcon"
     src="/icons/skill-softwareDevelopment.svg"
   />
-   Software Development
+   
+  Software Development
 </span>
 `;
 
@@ -403,7 +435,8 @@ exports[`rendering of correct captioned icons renders correct icon for spanish 1
     className="captionedIcon"
     src="/icons/flag-mexico.svg"
   />
-   Mexico
+   
+  Mexico
 </span>
 `;
 
@@ -414,7 +447,8 @@ exports[`rendering of correct captioned icons renders correct icon for swahili 1
     className="captionedIcon"
     src="/icons/flag-tanzania.svg"
   />
-   Swahili
+   
+  Swahili
 </span>
 `;
 
@@ -425,7 +459,8 @@ exports[`rendering of correct captioned icons renders correct icon for teamwork 
     className="captionedIcon"
     src="/icons/personal-teamwork.svg"
   />
-   Teamwork
+   
+  Teamwork
 </span>
 `;
 
@@ -436,7 +471,8 @@ exports[`rendering of correct captioned icons renders correct icon for telecommu
     className="captionedIcon"
     src="/icons/personal-telecommuting.svg"
   />
-   Telecommuting
+   
+  Telecommuting
 </span>
 `;
 
@@ -447,7 +483,8 @@ exports[`rendering of correct captioned icons renders correct icon for timeManag
     className="captionedIcon"
     src="/icons/personal-timeManagement.svg"
   />
-   Time Management
+   
+  Time Management
 </span>
 `;
 
@@ -458,7 +495,8 @@ exports[`rendering of correct captioned icons renders correct icon for vsCode 1`
     className="captionedIcon"
     src="/icons/software-VsCode.svg"
   />
-   Visual Studio Code
+   
+  Visual Studio Code
 </span>
 `;
 
@@ -469,7 +507,8 @@ exports[`rendering of correct captioned icons renders correct icon for windows 1
     className="captionedIcon"
     src="/icons/software-windowsTen.svg"
   />
-   Windows
+   
+  Windows
 </span>
 `;
 
@@ -480,7 +519,8 @@ exports[`rendering of correct captioned icons renders correct icon for word 1`] 
     className="captionedIcon"
     src="/icons/software-Word.svg"
   />
-   Microsoft Word
+   
+  Microsoft Word
 </span>
 `;
 
@@ -491,6 +531,7 @@ exports[`rendering of correct captioned icons renders correct icon for writing 1
     className="captionedIcon"
     src="/icons/skill-Writing.svg"
   />
-   Writing
+   
+  Writing
 </span>
 `;

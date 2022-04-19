@@ -47,7 +47,8 @@ exports[`renders correct resume component 1`] = `
                 className="captionedIcon"
                 src="/icons/cloud-azure.svg"
               />
-               Azure
+               
+              Azure
             </span>
           </li>
           <li
@@ -59,7 +60,8 @@ exports[`renders correct resume component 1`] = `
                 className="captionedIcon"
                 src="/icons/devops-docker.svg"
               />
-               Docker
+               
+              Docker
             </span>
           </li>
           <li
@@ -71,7 +73,8 @@ exports[`renders correct resume component 1`] = `
                 className="captionedIcon"
                 src="/icons/devops-kubernetes.svg"
               />
-               Kubernetes
+               
+              Kubernetes
             </span>
           </li>
           <li
@@ -83,7 +86,8 @@ exports[`renders correct resume component 1`] = `
                 className="captionedIcon"
                 src="/icons/software-Git.svg"
               />
-               Git
+               
+              Git
             </span>
           </li>
           <li
@@ -95,7 +99,8 @@ exports[`renders correct resume component 1`] = `
                 className="captionedIcon"
                 src="/icons/skill-linux.svg"
               />
-               Linux
+               
+              Linux
             </span>
           </li>
           <li
@@ -140,7 +145,8 @@ exports[`renders correct resume component 1`] = `
                 className="captionedIcon"
                 src="/icons/framework-flask.svg"
               />
-               Flask
+               
+              Flask
             </span>
           </li>
           <li
@@ -152,7 +158,8 @@ exports[`renders correct resume component 1`] = `
                 className="captionedIcon"
                 src="/icons/library-jquery.svg"
               />
-               jQuery
+               
+              jQuery
             </span>
           </li>
           <li
@@ -164,7 +171,8 @@ exports[`renders correct resume component 1`] = `
                 className="captionedIcon"
                 src="/icons/library-react.svg"
               />
-               React
+               
+              React
             </span>
           </li>
           <li
@@ -176,7 +184,8 @@ exports[`renders correct resume component 1`] = `
                 className="captionedIcon"
                 src="/icons/skill-RestApi.svg"
               />
-               REST APIs
+               
+              REST APIs
             </span>
           </li>
           <li
@@ -188,7 +197,8 @@ exports[`renders correct resume component 1`] = `
                 className="captionedIcon"
                 src="/icons/language-postgreSQL.svg"
               />
-               PostgreSQL
+               
+              PostgreSQL
             </span>
           </li>
         </ul>
@@ -210,7 +220,8 @@ exports[`renders correct resume component 1`] = `
                 className="captionedIcon"
                 src="/icons/language-python.svg"
               />
-               Python
+               
+              Python
             </span>
           </li>
           <li
@@ -222,7 +233,8 @@ exports[`renders correct resume component 1`] = `
                 className="captionedIcon"
                 src="/icons/language-javaScript.svg"
               />
-               JavaScript
+               
+              JavaScript
             </span>
           </li>
           <li
@@ -234,7 +246,8 @@ exports[`renders correct resume component 1`] = `
                 className="captionedIcon"
                 src="/icons/language-CeePlusPlus.svg"
               />
-               C++
+               
+              C++
             </span>
           </li>
           <li
@@ -246,7 +259,8 @@ exports[`renders correct resume component 1`] = `
                 className="captionedIcon"
                 src="/icons/flag-USA.svg"
               />
-               English
+               
+              English
             </span>
           </li>
           <li
@@ -258,7 +272,8 @@ exports[`renders correct resume component 1`] = `
                 className="captionedIcon"
                 src="/icons/flag-france.svg"
               />
-               French
+               
+              French
             </span>
           </li>
         </ul>
