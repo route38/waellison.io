@@ -30,4 +30,3 @@ class School extends React.Component {
 }
 
 export default School;
-

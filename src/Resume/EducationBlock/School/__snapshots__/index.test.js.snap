@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correct footer component 1`] = `
+<div
+  className="event"
+>
+  <h3>
+    freeCodeCamp
+  </h3>
+  <p>
+    2022 to present
+    , 
+    Certification in Frontend Web Libraries (in-progress)
+  </p>
+  <p
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "Self-paced boot camp-style curriculum in major libraries used for frontend Web development, including jQuery, React, Redux, and Bootstrap.",
+      }
+    }
+  />
+  <ul
+    className="skillsUsed"
+  >
+    <li
+      className="skillTag"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "JavaScript",
+        }
+      }
+    />
+    <li
+      className="skillTag"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "React.js",
+        }
+      }
+    />
+    <li
+      className="skillTag"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Redux",
+        }
+      }
+    />
+    <li
+      className="skillTag"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "HTML",
+        }
+      }
+    />
+    <li
+      className="skillTag"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "CSS",
+        }
+      }
+    />
+    <li
+      className="skillTag"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Bootstrap",
+        }
+      }
+    />
+  </ul>
+</div>
+`;
