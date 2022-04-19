@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correct skill category component 1`] = `
+<div
+  className="skillCategory"
+  id="Languages"
+>
+  <h3>
+    Languages
+  </h3>
+  <ul>
+    <li
+      className="captionedIconContainer"
+    >
+      <span>
+        <img
+          alt="Python"
+          className="captionedIcon"
+          src="/icons/language-python.svg"
+        />
+         Python
+      </span>
+    </li>
+    <li
+      className="captionedIconContainer"
+    >
+      <span>
+        <img
+          alt="JavaScript"
+          className="captionedIcon"
+          src="/icons/language-javaScript.svg"
+        />
+         JavaScript
+      </span>
+    </li>
+    <li
+      className="captionedIconContainer"
+    >
+      <span>
+        <img
+          alt="C++"
+          className="captionedIcon"
+          src="/icons/language-CeePlusPlus.svg"
+        />
+         C++
+      </span>
+    </li>
+    <li
+      className="captionedIconContainer"
+    >
+      <span>
+        <img
+          alt="USA"
+          className="captionedIcon"
+          src="/icons/flag-USA.svg"
+        />
+         English
+      </span>
+    </li>
+    <li
+      className="captionedIconContainer"
+    >
+      <span>
+        <img
+          alt="French"
+          className="captionedIcon"
+          src="/icons/flag-france.svg"
+        />
+         French
+      </span>
+    </li>
+  </ul>
+</div>
+`;

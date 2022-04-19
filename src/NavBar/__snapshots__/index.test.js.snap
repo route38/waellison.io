@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correct navbar component 1`] = `
+<div
+  id="navBar"
+>
+  <nav>
+    <div
+      id="navBarBrand"
+    >
+      <a
+        className="navLink"
+        href="/"
+        title="Україні Слава!"
+      >
+        William Ellison
+      </a>
+    </div>
+    <div
+      id="navBarBody"
+    >
+      <menu
+        id="topLevelNavMenu"
+      >
+        <li>
+          <a
+            className="navLink"
+            href="#resume"
+          >
+            Résumé
+          </a>
+        </li>
+        <li>
+          <a
+            className="navLink"
+            href="#portfolio"
+          >
+            Portfolio
+          </a>
+        </li>
+      </menu>
+    </div>
+  </nav>
+</div>
+`;

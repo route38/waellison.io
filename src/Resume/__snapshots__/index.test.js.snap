@@ -1,0 +1,930 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correct resume component 1`] = `
+<div
+  id="resume"
+>
+  <div
+    id="summary"
+  >
+    <h1>
+      William A. Ellison
+    </h1>
+    <h2>
+      Summary
+    </h2>
+    <p
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "I am a passionate, skilled software developer with a strong background in web development and three years' experience in healthcare revenue cycle management.  My skills include programming in Python and JavaScript with the Flask and React frameworks, PostgreSQL databases, and REST APIs.  I am also skilled at developing for the cloud with Docker, Kubernetes, and Microsoft Azure.  I have recognized skills in analysis, problem solving, and written and oral communication.",
+        }
+      }
+    />
+  </div>
+  <div
+    id="skills"
+  >
+    <h2>
+      Skills
+    </h2>
+    <div
+      id="skillbox"
+    >
+      <div
+        className="skillCategory"
+        id="DevOps"
+      >
+        <h3>
+          DevOps
+        </h3>
+        <ul>
+          <li
+            className="captionedIconContainer"
+          >
+            <span>
+              <img
+                alt="Azure"
+                className="captionedIcon"
+                src="/icons/cloud-azure.svg"
+              />
+               Azure
+            </span>
+          </li>
+          <li
+            className="captionedIconContainer"
+          >
+            <span>
+              <img
+                alt="Docker"
+                className="captionedIcon"
+                src="/icons/devops-docker.svg"
+              />
+               Docker
+            </span>
+          </li>
+          <li
+            className="captionedIconContainer"
+          >
+            <span>
+              <img
+                alt="Kubernetes"
+                className="captionedIcon"
+                src="/icons/devops-kubernetes.svg"
+              />
+               Kubernetes
+            </span>
+          </li>
+          <li
+            className="captionedIconContainer"
+          >
+            <span>
+              <img
+                alt="Git"
+                className="captionedIcon"
+                src="/icons/software-Git.svg"
+              />
+               Git
+            </span>
+          </li>
+          <li
+            className="captionedIconContainer"
+          >
+            <span>
+              <img
+                alt="Linux"
+                className="captionedIcon"
+                src="/icons/skill-linux.svg"
+              />
+               Linux
+            </span>
+          </li>
+          <li
+            className="captionedIconContainer"
+          >
+            <span>
+              <img
+                alt="Continuous integration"
+                className="captionedIcon"
+                src="/icons/skill-devops.svg"
+              />
+               
+              <abbr
+                title="Continuous integration"
+              >
+                CI
+              </abbr>
+              /
+              <abbr
+                title="Continuous delivery"
+              >
+                CD
+              </abbr>
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div
+        className="skillCategory"
+        id="Libraries"
+      >
+        <h3>
+          Libraries
+        </h3>
+        <ul>
+          <li
+            className="captionedIconContainer"
+          >
+            <span>
+              <img
+                alt="Flask"
+                className="captionedIcon"
+                src="/icons/framework-flask.svg"
+              />
+               Flask
+            </span>
+          </li>
+          <li
+            className="captionedIconContainer"
+          >
+            <span>
+              <img
+                alt="jQuery"
+                className="captionedIcon"
+                src="/icons/library-jquery.svg"
+              />
+               jQuery
+            </span>
+          </li>
+          <li
+            className="captionedIconContainer"
+          >
+            <span>
+              <img
+                alt="React"
+                className="captionedIcon"
+                src="/icons/library-react.svg"
+              />
+               React
+            </span>
+          </li>
+          <li
+            className="captionedIconContainer"
+          >
+            <span>
+              <img
+                alt="RestApi"
+                className="captionedIcon"
+                src="/icons/skill-RestApi.svg"
+              />
+               REST APIs
+            </span>
+          </li>
+          <li
+            className="captionedIconContainer"
+          >
+            <span>
+              <img
+                alt="PostgreSQL"
+                className="captionedIcon"
+                src="/icons/language-postgreSQL.svg"
+              />
+               PostgreSQL
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div
+        className="skillCategory"
+        id="Languages"
+      >
+        <h3>
+          Languages
+        </h3>
+        <ul>
+          <li
+            className="captionedIconContainer"
+          >
+            <span>
+              <img
+                alt="Python"
+                className="captionedIcon"
+                src="/icons/language-python.svg"
+              />
+               Python
+            </span>
+          </li>
+          <li
+            className="captionedIconContainer"
+          >
+            <span>
+              <img
+                alt="JavaScript"
+                className="captionedIcon"
+                src="/icons/language-javaScript.svg"
+              />
+               JavaScript
+            </span>
+          </li>
+          <li
+            className="captionedIconContainer"
+          >
+            <span>
+              <img
+                alt="C++"
+                className="captionedIcon"
+                src="/icons/language-CeePlusPlus.svg"
+              />
+               C++
+            </span>
+          </li>
+          <li
+            className="captionedIconContainer"
+          >
+            <span>
+              <img
+                alt="USA"
+                className="captionedIcon"
+                src="/icons/flag-USA.svg"
+              />
+               English
+            </span>
+          </li>
+          <li
+            className="captionedIconContainer"
+          >
+            <span>
+              <img
+                alt="French"
+                className="captionedIcon"
+                src="/icons/flag-france.svg"
+              />
+               French
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div>
+    <h2>
+      Education
+    </h2>
+    <div
+      className="event"
+    >
+      <h3>
+        freeCodeCamp
+      </h3>
+      <p>
+        2022 to present
+        , 
+        Certification in Frontend Web Libraries (in-progress)
+      </p>
+      <p
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Self-paced boot camp-style curriculum in major libraries used for frontend Web development, including jQuery, React, Redux, and Bootstrap.",
+          }
+        }
+      />
+      <ul
+        className="skillsUsed"
+      >
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "JavaScript",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "React.js",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Redux",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "HTML",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "CSS",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Bootstrap",
+            }
+          }
+        />
+      </ul>
+    </div>
+    <div
+      className="event"
+    >
+      <h3>
+        Nucamp
+      </h3>
+      <p>
+        2021
+        , 
+        Certification in Backend Development with Python, SQL, and DevOps
+      </p>
+      <p
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Boot camp course in modern backend Web development with the Python language, PostgreSQL, Flask, Django, and DevOps deployments to Microsoft Azure, Google Cloud, and Amazon AWS.",
+          }
+        }
+      />
+      <ul
+        className="skillsUsed"
+      >
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Python",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Flask",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "PostgreSQL",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Microsoft Azure",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Git",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "CI/CD",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Visual Studio Code",
+            }
+          }
+        />
+      </ul>
+    </div>
+    <div
+      className="event"
+    >
+      <h3>
+        Tennessee College of Applied Technology
+      </h3>
+      <p>
+        2018
+        , 
+        Diploma in Medical Office Information Technology
+      </p>
+      <p
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Broad-ranging instruction in concepts and procedures of the medical billing office, including reimbursement principles, medical terms, medical coding, and practice-management software.",
+          }
+        }
+      />
+      <ul
+        className="skillsUsed"
+      >
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Medical coding",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Medical billing",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Microsoft Word",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Microsoft Excel",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Medical terminology",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Teamwork",
+            }
+          }
+        />
+      </ul>
+    </div>
+    <div
+      className="event"
+    >
+      <h3>
+        University of Tennessee
+      </h3>
+      <p>
+        2006 to 2011
+        , 
+        Bachelor of Science in Computer Science
+      </p>
+      <p
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Practical and theoretical instruction in computer science, including systems programming, object-oriented systems, graphical user interfaces, technical writing, and theoretical computer science, combined with traditional liberal-arts curriculum.",
+          }
+        }
+      />
+      <ul
+        className="skillsUsed"
+      >
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "C++",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Java",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Technical writing",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Teamwork",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Public speaking",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "LaTeX",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "OpenGL",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Subversion",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Emacs",
+            }
+          }
+        />
+      </ul>
+    </div>
+  </div>
+  <div>
+    <h2>
+      Experience
+    </h2>
+    <div
+      className="event"
+    >
+      <h3>
+        Accounts Receivable Representative
+      </h3>
+      <p>
+        2019
+         to 
+        present
+         at 
+        University Physicians' Association
+      </p>
+      <ul>
+        <li
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Averaged 30 claims per day with 98% accuracy.",
+            }
+          }
+        />
+        <li
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "90% remote since March 2020.",
+            }
+          }
+        />
+        <li
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Trained other representatives on writing appeal letters.",
+            }
+          }
+        />
+        <li
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Responsible for reducing outstanding claim volume by 50% within one quarter.",
+            }
+          }
+        />
+        <li
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Recognized as my team's point of knowledge for questions on diagnosis and procedure coding.",
+            }
+          }
+        />
+        <li
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Submitted more than 300 appeals to all major payers, overturning 70% of denials.",
+            }
+          }
+        />
+      </ul>
+      <ul
+        className="skillsUsed"
+      >
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Telecommuting",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Medical coding",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Medical billing",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Writing",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Teamwork",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Time management",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Detail orientation",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Microsoft Excel",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Microsoft Word",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Microsoft Access",
+            }
+          }
+        />
+      </ul>
+    </div>
+    <div
+      className="event"
+    >
+      <h3>
+        Medical Billing Representative
+      </h3>
+      <p>
+        2018
+         to 
+        2019
+         at 
+        University Physicians' Association
+      </p>
+      <ul>
+        <li
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Averaged 1,200 line items per day with 100% accuracy.",
+            }
+          }
+        />
+        <li
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Worked in a diverse array of medical specialties including surgery, oncology, and public health.",
+            }
+          }
+        />
+        <li
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Made approved edits in accordance with company and payer guidelines.",
+            }
+          }
+        />
+        <li
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Contributed to a team responsible for reviewing more than 8,000 line items per day.",
+            }
+          }
+        />
+      </ul>
+      <ul
+        className="skillsUsed"
+      >
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Medical billing",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Medical coding",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Data entry",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Time management",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Teamwork",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Microsoft Excel",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Detail orientation",
+            }
+          }
+        />
+      </ul>
+    </div>
+    <div
+      className="event"
+    >
+      <h3>
+        Office Cleaner
+      </h3>
+      <p>
+        2006
+         to 
+        2018
+         at 
+        We Clean It CJS
+      </p>
+      <ul>
+        <li
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Cleaned a total of 50,000 sq ft of office space per night.",
+            }
+          }
+        />
+        <li
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Achieved a complaint rate of 0% for 7 consecutive years.",
+            }
+          }
+        />
+        <li
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Created the company website using WordPress and the <abbr title='Linux, nginx, MariaDB, and PHP'>LEMP</abbr> stack.",
+            }
+          }
+        />
+      </ul>
+      <ul
+        className="skillsUsed"
+      >
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Time management",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Teamwork",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Detail orientation",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "WordPress",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Linux",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "nginx",
+            }
+          }
+        />
+      </ul>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering of correct captioned icons renders correct icon for access 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for aws 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for azure 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for cee 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for ceePlusPlus 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for continuousIntegration 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for css 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for dependability 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for devops 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for django 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for docker 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for english 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for excel 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for flask 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for french 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for german 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for git 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for googleCloud 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for html 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for jQuery 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for javaScript 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for kubernetes 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for learning 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for linux 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for macOS 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for medicalCoding 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for outlook 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for postgreSQL 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for problemSolving 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for python 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for reactjs 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for restApi 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for ruby 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for sinatra 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for softwareDevelopment 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for spanish 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for swahili 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for teamwork 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for telecommuting 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for timeManagement 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for vsCode 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for windows 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for word 1`] = `null`;
+
+exports[`rendering of correct captioned icons renders correct icon for writing 1`] = `null`;
