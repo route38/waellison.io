@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correct footer component 1`] = `
+<footer
+  id="siteFooter"
+>
+  <p>
+    Copyright © 2022 by William Ellison.
+  </p>
+</footer>
+`;
