@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correct summary component 1`] = `
+<div
+  id="summary"
+>
+  <h1>
+    William A. Ellison
+  </h1>
+  <h2>
+    Summary
+  </h2>
+  <p
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": undefined,
+      }
+    }
+  />
+</div>
+`;
