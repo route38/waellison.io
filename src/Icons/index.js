@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "./index.css";
 
 const Flask = () => {
@@ -543,6 +544,10 @@ const MacOs = () => {
 const CaptionedIcon = (props) => {
   return iconTable[props.name];
 };
+
+CaptionedIcon.propTypes = {
+    name: PropTypes.string.isRequired,
+}
 
 const iconTable = {
   flask: <Flask />,
