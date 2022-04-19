@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correct job component 1`] = `
+<div
+  className="event"
+>
+  <h3>
+    Accounts Receivable Representative
+  </h3>
+  <p>
+    2019
+     to 
+    present
+     at 
+    University Physicians' Association
+  </p>
+  <ul>
+    <li
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Averaged 30 claims per day with 98% accuracy.",
+        }
+      }
+    />
+    <li
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "90% remote since March 2020.",
+        }
+      }
+    />
+    <li
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Trained other representatives on writing appeal letters.",
+        }
+      }
+    />
+    <li
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Responsible for reducing outstanding claim volume by 50% within one quarter.",
+        }
+      }
+    />
+    <li
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Recognized as my team's point of knowledge for questions on diagnosis and procedure coding.",
+        }
+      }
+    />
+    <li
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Submitted more than 300 appeals to all major payers, overturning 70% of denials.",
+        }
+      }
+    />
+  </ul>
+  <ul
+    className="skillsUsed"
+  >
+    <li
+      className="skillTag"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Telecommuting",
+        }
+      }
+    />
+    <li
+      className="skillTag"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Medical coding",
+        }
+      }
+    />
+    <li
+      className="skillTag"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Medical billing",
+        }
+      }
+    />
+    <li
+      className="skillTag"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Writing",
+        }
+      }
+    />
+    <li
+      className="skillTag"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Teamwork",
+        }
+      }
+    />
+    <li
+      className="skillTag"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Time management",
+        }
+      }
+    />
+    <li
+      className="skillTag"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Detail orientation",
+        }
+      }
+    />
+    <li
+      className="skillTag"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Microsoft Excel",
+        }
+      }
+    />
+    <li
+      className="skillTag"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Microsoft Word",
+        }
+      }
+    />
+    <li
+      className="skillTag"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Microsoft Access",
+        }
+      }
+    />
+  </ul>
+</div>
+`;
