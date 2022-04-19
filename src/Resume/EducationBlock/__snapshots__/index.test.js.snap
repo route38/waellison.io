@@ -1,0 +1,325 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correct footer component 1`] = `
+<div>
+  <h2>
+    Education
+  </h2>
+  <div
+    className="event"
+  >
+    <h3>
+      freeCodeCamp
+    </h3>
+    <p>
+      2022 to present
+      , 
+      Certification in Frontend Web Libraries (in-progress)
+    </p>
+    <p
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Self-paced boot camp-style curriculum in major libraries used for frontend Web development, including jQuery, React, Redux, and Bootstrap.",
+        }
+      }
+    />
+    <ul
+      className="skillsUsed"
+    >
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "JavaScript",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "React.js",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Redux",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "HTML",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "CSS",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Bootstrap",
+          }
+        }
+      />
+    </ul>
+  </div>
+  <div
+    className="event"
+  >
+    <h3>
+      Nucamp
+    </h3>
+    <p>
+      2021
+      , 
+      Certification in Backend Development with Python, SQL, and DevOps
+    </p>
+    <p
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Boot camp course in modern backend Web development with the Python language, PostgreSQL, Flask, Django, and DevOps deployments to Microsoft Azure, Google Cloud, and Amazon AWS.",
+        }
+      }
+    />
+    <ul
+      className="skillsUsed"
+    >
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Python",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Flask",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "PostgreSQL",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Microsoft Azure",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Git",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "CI/CD",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Visual Studio Code",
+          }
+        }
+      />
+    </ul>
+  </div>
+  <div
+    className="event"
+  >
+    <h3>
+      Tennessee College of Applied Technology
+    </h3>
+    <p>
+      2018
+      , 
+      Diploma in Medical Office Information Technology
+    </p>
+    <p
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Broad-ranging instruction in concepts and procedures of the medical billing office, including reimbursement principles, medical terms, medical coding, and practice-management software.",
+        }
+      }
+    />
+    <ul
+      className="skillsUsed"
+    >
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Medical coding",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Medical billing",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Microsoft Word",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Microsoft Excel",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Medical terminology",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Teamwork",
+          }
+        }
+      />
+    </ul>
+  </div>
+  <div
+    className="event"
+  >
+    <h3>
+      University of Tennessee
+    </h3>
+    <p>
+      2006 to 2011
+      , 
+      Bachelor of Science in Computer Science
+    </p>
+    <p
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Practical and theoretical instruction in computer science, including systems programming, object-oriented systems, graphical user interfaces, technical writing, and theoretical computer science, combined with traditional liberal-arts curriculum.",
+        }
+      }
+    />
+    <ul
+      className="skillsUsed"
+    >
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "C++",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Java",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Technical writing",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Teamwork",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Public speaking",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "LaTeX",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "OpenGL",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Subversion",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Emacs",
+          }
+        }
+      />
+    </ul>
+  </div>
+</div>
+`;

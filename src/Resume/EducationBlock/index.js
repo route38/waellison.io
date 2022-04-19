@@ -4,7 +4,6 @@ import School from "./School";
 class EducationBlock extends React.Component {
     render() {
         let schools = this.props.schools;
-        console.log(schools);
         return (
             <div>
                 <h2>Education</h2>
