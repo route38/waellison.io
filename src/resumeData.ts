@@ -1,4 +1,8 @@
-const resumeData = {
+type ResumeData = {
+  [key: string]: string | Array<string> | ResumeData
+}
+
+const resumeData: ResumeData = {
   summary:
     "I am a passionate, skilled software developer with a strong background in web development and three years' experience in healthcare revenue cycle management.  My skills include programming in Python and JavaScript with the Flask and React frameworks, PostgreSQL databases, and REST APIs.  I am also skilled at developing for the cloud with Docker, Kubernetes, and Microsoft Azure.  I have recognized skills in analysis, problem solving, and written and oral communication.",
   skills: {
@@ -154,4 +158,4 @@ const resumeData = {
   },
 };
 
-export default resumeData;
+export { resumeData, ResumeData };
