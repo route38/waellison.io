@@ -1,7 +1,12 @@
 import React from "react";
 import CaptionedIcon from "../../../Icons";
 
-export class SkillCategory extends React.Component {
+interface IProps {
+    name: string,
+    children: Array<any>,
+}
+
+export default class SkillCategory extends React.Component<IProps> {
   render() {
     return (
       <div className="skillCategory" id={this.props.name}>
@@ -19,5 +24,3 @@ export class SkillCategory extends React.Component {
     );
   }
 }
-
-export default SkillCategory;

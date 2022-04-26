@@ -1,7 +1,12 @@
 import React from "react";
 import SkillCategory from "./SkillCategory";
+import { SkillsSection } from "../../resumeData";
 
-export class SkillBlock extends React.Component {
+interface IProps {
+    skills: SkillsSection;
+}
+
+export default class SkillBlock extends React.Component<IProps> {
   render() {
     let skills = this.props.skills;
     return (
@@ -22,5 +27,3 @@ export class SkillBlock extends React.Component {
     );
   }
 }
-
-export default SkillBlock;
