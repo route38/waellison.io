@@ -2,8 +2,9 @@ import React from "react";
 import Project from "./Project";
 
 const Portfolio = () => {
-    const username = "waellison"; // FIXME this really shouldn't be a prop
-    let projects = [
+    const username: string = "waellison"; // FIXME this really shouldn't be a prop
+    let i = 0;
+    let projects: Array<string> = [
         "willpress",
         "willread",
         "react-resume",
@@ -17,7 +18,7 @@ const Portfolio = () => {
             <h1>Selected Work</h1>
             {
                 projects.map ((project) => {
-                    return <Project user={username} project={project}/>
+                    return <Project key={`project${i++}`} user={username} project={project}/>
                 })
             }
         </div>
