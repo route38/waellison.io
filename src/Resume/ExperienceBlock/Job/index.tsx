@@ -1,6 +1,7 @@
 import React from "react";
+import { JobType } from "../../../resumeData";
 
-class Job extends React.Component {
+class Job extends React.Component<JobType> {
   render() {
     let startYear = this.props.startDate.split("-")[0];
     let endYear = "present";

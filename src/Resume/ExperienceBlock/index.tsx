@@ -1,7 +1,12 @@
 import React from "react";
+import { resumeData, ExperienceSection } from "../../resumeData";
 import Job from "./Job";
 
-class ExperienceBlock extends React.Component {
+interface IProps {
+    jobs: ExperienceSection;
+}
+
+class ExperienceBlock extends React.Component<IProps> {
   render() {
     let jobs = this.props.jobs;
     return (

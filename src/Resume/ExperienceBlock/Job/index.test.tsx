@@ -1,7 +1,7 @@
 import React from "react";
 import renderer from "react-test-renderer";
 import Job from "./index";
-import resumeData from "../../../resumeData";
+import { resumeData } from "../../../resumeData";
 
 it("renders correct job component", () => {
   const aJob = resumeData.experience.upaAR;
