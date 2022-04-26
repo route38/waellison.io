@@ -1,6 +1,14 @@
 import React from "react";
 
-class Summary extends React.Component {
+interface IProps {
+    text: string;
+}
+
+interface IState {
+
+}
+
+class Summary extends React.Component<IProps, IState> {
   render() {
     return (
       <div id="summary">
