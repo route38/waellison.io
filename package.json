@@ -36,7 +36,8 @@
     "start": "react-dotenv && react-scripts start",
     "build": "react-dotenv && react-scripts build",
     "test": "react-dotenv && react-scripts test",
-    "eject": "react-dotenv && react-scripts eject"
+    "eject": "react-dotenv && react-scripts eject",
+    "rde": "react-dotenv"
   },
   "eslintConfig": {
     "extends": [
@@ -82,5 +83,8 @@
       ]
     ],
     "testResultsProcessor": "jest-junit"
+  },
+  "react-dotenv": {
+    "whitelist": ["GITHUB_API_KEY"]
   }
 }

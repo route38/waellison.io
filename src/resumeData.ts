@@ -1,8 +1,41 @@
-type ResumeData = {
-  [key: string]: string | Array<string> | ResumeData
-}
+export type ResumeData = {
+  summary: string,
+  skills: SkillsSection,
+  education: EducationSection,
+  experience: ExperienceSection
+};
 
-const resumeData: ResumeData = {
+export type SkillsSection = {
+  [key: string]: string[]
+};
+
+export type EducationSection = {
+  [key: string]: InstitutionType
+};
+
+export type InstitutionType = {
+  institution: string,
+  credential: string,
+  startDate: string,
+  endDate?: string,
+  description: string,
+  competencies: string[]
+};
+
+export type ExperienceSection = {
+  [key: string]: JobType
+};
+
+export type JobType = {
+  title: string,
+  company: string,
+  startDate: string,
+  endDate?: string,
+  duties: string[],
+  competencies: string[]
+};
+
+export const resumeData: ResumeData = {
   summary:
     "I am a passionate, skilled software developer with a strong background in web development and three years' experience in healthcare revenue cycle management.  My skills include programming in Python and JavaScript with the Flask and React frameworks, PostgreSQL databases, and REST APIs.  I am also skilled at developing for the cloud with Docker, Kubernetes, and Microsoft Azure.  I have recognized skills in analysis, problem solving, and written and oral communication.",
   skills: {
@@ -22,7 +55,7 @@ const resumeData: ResumeData = {
       institution: "freeCodeCamp",
       credential: "Certification in Frontend Web Libraries (in-progress)",
       startDate: "2022-03-15",
-      endDate: null,
+      endDate: undefined,
       description:
         "Self-paced boot camp-style curriculum in major libraries used for frontend Web development, including jQuery, React, Redux, and Bootstrap.",
       competencies: [
@@ -93,7 +126,7 @@ const resumeData: ResumeData = {
       title: "Accounts Receivable Representative",
       company: "University Physicians' Association",
       startDate: "2019-11-18",
-      endDate: null,
+      endDate: undefined,
       duties: [
         "Averaged 30 claims per day with 98% accuracy.",
         "90% remote since March 2020.",
@@ -157,5 +190,3 @@ const resumeData: ResumeData = {
     },
   },
 };
-
-export { resumeData, ResumeData };
