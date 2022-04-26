@@ -541,7 +541,11 @@ const MacOs = () => {
   );
 };
 
-const CaptionedIcon = (props) => {
+type IconType = {
+    [key: string]: JSX.Element
+}
+
+const CaptionedIcon = (props: any) => {
   return iconTable[props.name];
 };
 
@@ -549,7 +553,7 @@ CaptionedIcon.propTypes = {
     name: PropTypes.string.isRequired,
 }
 
-const iconTable = {
+const iconTable: IconType = {
   flask: <Flask />,
   python: <Python />,
   learning: <Learning />,
