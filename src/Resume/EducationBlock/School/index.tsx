@@ -1,6 +1,7 @@
 import React from "react";
+import { InstitutionType } from "../../../resumeData";
 
-class School extends React.Component {
+class School extends React.Component<InstitutionType> {
   render() {
     let startYear = this.props.startDate.split("-")[0];
     let endYear = "present";
