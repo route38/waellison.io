@@ -4,8 +4,23 @@ exports[`renders correct footer component 1`] = `
 <footer
   id="siteFooter"
 >
-  <p>
-    Copyright © 2022 by William Ellison.
-  </p>
+  <div
+    className="meta"
+  >
+    <p>
+      Copyright © 2022 by William Ellison.
+    </p>
+  </div>
+  <div
+    className="socialBox"
+  >
+    <a
+      href="//github.com/waellison"
+    >
+      <i
+        className="fa-brands fa-github"
+      />
+    </a>
+  </div>
 </footer>
 `;

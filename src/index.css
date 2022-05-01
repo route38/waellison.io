@@ -11,7 +11,7 @@
 
 /**********************************************************************\
  * Welcome to the Route 38 stylesheet for 2022.  This file is roughly *
- * divided into eight sections, which you may search for with your    *
+ * divided into several sections, which you may search for with your  *
  * editor's search functionality.  Search for the word between square *
  * brackets to be taken to that section of the file.                  *
  *                                                                    *
@@ -23,6 +23,8 @@
  * - Header Layout                [header]                            *
  * - Content Layout               [content]                           *
  * - Footer Layout                [footer]                            *
+ * - Front Page Styles            [frontPage]                         *
+ * - Portfolio Styles             [portfolio]                         *
  * - Hacks                        [hacks]                             *
 \**********************************************************************/
 
@@ -247,8 +249,8 @@ h6 {
 #root {
   display: grid;
   width: 100%;
-  grid-template-columns: clamp(1rem, 12rem, 24rem) auto clamp(1rem, 12rem, 24rem);
-  grid-template-rows: 3rem auto 3rem;
+  grid-template-columns: clamp(1rem, 10vw, 24rem) auto clamp(1rem, 10vw, 24rem);
+  grid-template-rows: 3rem auto max(3rem, auto);
   grid-template-areas:
     "header header header"
     "  .    content   ."
@@ -347,17 +349,92 @@ h6 {
   justify-content: space-between;
 }
 
+@media screen and (max-width: 640px) {
+  #siteFooter {
+    flex-direction: column;
+    padding-bottom: 3rem;
+  }
+}
+
 #siteFooter ul li {
   margin-right: 0;
+}
+
+#siteFooter .meta {
+  margin: 0;
 }
 
 .footer-nav li:not(:last-child)::after {
   content: " \2726 ";
 }
 
+.socialBtn {
+  margin: 0 0.25rem;
+  border-radius: 10%;
+  padding: 0.25rem;
+  box-sizing: border-box;
+  width: 1.5rem;
+  height: 1.5rem;  
+  display: inline-block;
+  text-align: center;
+}
+
+.socialBtn:first-child, .socialBtn:last-child {
+  margin: 0;
+}
+
+.socialBtn:link, .socialBtn:active, .socialBtn:hover, .socialBtn:visited {
+  color: var(--foreground-dark);
+}
+
+.githubLink {
+  background-color: var(--background-dark);
+}
+
+.linkedinLink {
+  background-color: #0a66c2;
+}
+
+.twitterLink {
+  background-color: #1da1f2;
+}
+
+.instaLink {
+  background-color: #c32aa3;
+}
+
+.emailLink {
+  background-color: var(--orange);
+}
+
+.blogLink {
+  background-color: var(--purple);
+}
+
+/**********************************************************************\
+ * [frontPage]                                                        *
+\**********************************************************************/
+#frontPage h1 {
+    margin: 0;
+}
+
+.ctaButton {
+    color: var(--foreground-dark);
+    background-color: var(--orange);
+    padding: 1rem;
+    border-radius: 0.3333rem;
+    box-sizing: border-box;
+}
+
+.ctaButton:link, .ctaButton:visited, .ctabutton:hover {
+    color: var(--foreground-dark);
+}
+
+/**********************************************************************\
+ * [portfolio]                                                        *
+\**********************************************************************/
+
+
 /**********************************************************************\
  * [hacks]                                                            *
 \**********************************************************************/
-p.meta {
-  margin: 0;
-}
