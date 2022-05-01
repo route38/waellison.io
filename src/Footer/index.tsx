@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="meta">
         <p>Copyright © 2022 by William Ellison.</p>
       </div>
-      <div className="socialBox">n
+      <div className="socialBox">
         <a href="//github.com/waellison" className="socialBtn githubLink">
             <FontAwesomeIcon icon={faGithubAlt} />
         </a>

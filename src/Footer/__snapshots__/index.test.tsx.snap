@@ -14,7 +14,6 @@ exports[`renders correct footer component 1`] = `
   <div
     className="socialBox"
   >
-    n
     <a
       className="socialBtn githubLink"
       href="//github.com/waellison"
