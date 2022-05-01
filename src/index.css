@@ -250,7 +250,7 @@ h6 {
   display: grid;
   width: 100%;
   grid-template-columns: clamp(1rem, 10vw, 24rem) auto clamp(1rem, 10vw, 24rem);
-  grid-template-rows: 3rem auto max(3rem, auto);
+  grid-template-rows: 3rem auto 3rem;
   grid-template-areas:
     "header header header"
     "  .    content   ."
@@ -260,7 +260,7 @@ h6 {
 
 @media (max-width: 640px) {
     #root {
-        grid-template-columns: 1rem auto 1rem;
+        grid-template-rows: 6rem auto 6rem;
     }
 }
 
@@ -311,6 +311,18 @@ h6 {
     display: inline-block;
 }
 
+@media screen and (max-width: 640px) {
+  #navBar nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #topLevelNavMenu li {
+      display: block;
+      padding: 0.1rem 0;
+  }
+}
+  
 .navLink:link, .navLink:visited {
   color: white;
   text-decoration: none;  
@@ -352,7 +364,9 @@ h6 {
 @media screen and (max-width: 640px) {
   #siteFooter {
     flex-direction: column;
-    padding-bottom: 3rem;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-bottom: 2rem;
   }
 }
 
@@ -360,7 +374,7 @@ h6 {
   margin-right: 0;
 }
 
-#siteFooter .meta {
+#siteFooter .meta p {
   margin: 0;
 }
 
