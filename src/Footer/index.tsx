@@ -1,6 +1,10 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { solid, regular, brands } from "@fortawesome/fontawesome-svg-core/import.macro";
+import {
+    faTwitter, faLinkedinIn, faGithubAlt, faInstagram
+} from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { faGlobeAmericas } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
@@ -8,24 +12,24 @@ const Footer = () => {
       <div className="meta">
         <p>Copyright © 2022 by William Ellison.</p>
       </div>
-      <div className="socialBox">
+      <div className="socialBox">n
         <a href="//github.com/waellison" className="socialBtn githubLink">
-            <FontAwesomeIcon icon={brands("github-alt")} />
+            <FontAwesomeIcon icon={faGithubAlt} />
         </a>
         <a href="//linkedin.com/in/tnwae" className="socialBtn linkedinLink">
-            <FontAwesomeIcon icon={brands("linkedin-in")}/>
+            <FontAwesomeIcon icon={faLinkedinIn}/>
         </a>
         <a href="//twitter.com/waedotpy" className="socialBtn twitterLink">
-            <FontAwesomeIcon icon={brands("twitter")}/>
+            <FontAwesomeIcon icon={faTwitter}/>
         </a>
         <a href="//instagram.com/nobettershoulder" className="socialBtn instaLink">
-            <FontAwesomeIcon icon={brands("instagram")}/>
+            <FontAwesomeIcon icon={faInstagram}/>
         </a>
         <a href="mailto:waellison@gmail.com" className="socialBtn emailLink">
-            <FontAwesomeIcon icon={solid("envelope")}/>
+            <FontAwesomeIcon icon={faEnvelope}/>
         </a>
         <a href="//waellison.blog" className="socialBtn blogLink">
-            <FontAwesomeIcon icon={solid("globe-americas")}/>
+            <FontAwesomeIcon icon={faGlobeAmericas}/>
         </a>
       </div>
     </footer>
