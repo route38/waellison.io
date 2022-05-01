@@ -14,7 +14,7 @@ const Portfolio = () => {
         "willshorten",
     ]
     return (
-        <div id="portfolio" className="projectContainer">
+        <div className="container">
             <h1>Selected Work</h1>
             {
                 projects.map ((project) => {

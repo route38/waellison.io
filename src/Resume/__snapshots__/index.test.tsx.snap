@@ -2,7 +2,7 @@
 
 exports[`renders correct resume component 1`] = `
 <div
-  id="resume"
+  className="container"
 >
   <div
     id="summary"

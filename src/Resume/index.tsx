@@ -9,7 +9,7 @@ class Resume extends React.Component {
   render() {
     let resume: ResumeData = resumeData;
     return (
-      <div id="resume">
+      <div className="container">
         <Summary text={resume.summary} />
         <SkillBlock skills={resume.skills} />
         <EducationBlock schools={resume.education} />
