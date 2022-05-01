@@ -17,13 +17,8 @@ const hasJsxRuntime = (() => {
 
 module.exports = babelJest.createTransformer({
   presets: [
-    [
-      require.resolve('babel-preset-react-app'),
-      {
-        runtime: hasJsxRuntime ? 'automatic' : 'classic',
-      },
-    ],
     '@babel/preset-typescript',
+    '@babel/preset-react',
   ],
   babelrc: false,
   configFile: false,
