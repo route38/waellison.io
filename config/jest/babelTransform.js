@@ -23,7 +23,9 @@ module.exports = babelJest.createTransformer({
         runtime: hasJsxRuntime ? 'automatic' : 'classic',
       },
     ],
+    '@babel/preset-typescript',
   ],
   babelrc: false,
   configFile: false,
 });
+
