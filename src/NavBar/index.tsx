@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./index.css";
 
 const NavBar = () => {
@@ -13,14 +14,15 @@ const NavBar = () => {
         <div id="navBarBody">
           <menu id="topLevelNavMenu">
             <li>
-              <a className="navLink" href="#resume">
-                Résumé
+              <a className="navLink neverGonnaGiveYouUp" href="//waellison.blog">
+                Blog
               </a>
             </li>
             <li>
-              <a className="navLink" href="#portfolio">
-                Portfolio
-              </a>
+                <Link className="navLink neverGonnaLetYouDown" to="/resume">Résumé</Link>
+            </li>
+            <li>
+                <Link className="navLink neverGonnaRunAroundAndDesertYou" to="/portfolio">Portfolio</Link>
             </li>
           </menu>
         </div>

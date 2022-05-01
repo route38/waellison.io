@@ -24,16 +24,26 @@ exports[`renders correct navbar component 1`] = `
       >
         <li>
           <a
-            className="navLink"
-            href="#resume"
+            className="navLink neverGonnaGiveYouUp"
+            href="//waellison.blog"
+          >
+            Blog
+          </a>
+        </li>
+        <li>
+          <a
+            className="navLink neverGonnaLetYouDown"
+            href="/resume"
+            onClick={[Function]}
           >
             Résumé
           </a>
         </li>
         <li>
           <a
-            className="navLink"
-            href="#portfolio"
+            className="navLink neverGonnaRunAroundAndDesertYou"
+            href="/portfolio"
+            onClick={[Function]}
           >
             Portfolio
           </a>
