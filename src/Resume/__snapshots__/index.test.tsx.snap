@@ -16,7 +16,7 @@ exports[`renders correct resume component 1`] = `
     <p
       dangerouslySetInnerHTML={
         Object {
-          "__html": "I am a passionate, skilled software developer with a strong background in web development and three years' experience in healthcare revenue cycle management.  My skills include programming in Python and JavaScript with the Flask and React frameworks, PostgreSQL databases, and REST APIs.  I am also skilled at developing for the cloud with Docker, Kubernetes, and Microsoft Azure.  I have recognized skills in analysis, problem solving, and written and oral communication.",
+          "__html": "I am a passionate, skilled software developer with a strong background in web development and three years' experience in healthcare revenue cycle management.  My skills include programming in Python and JavaScript with the Flask and React frameworks, PostgreSQL databases, and REST APIs.  I am also skilled at developing for the cloud with Docker, Kubernetes, and Microsoft Azure.  I have recognized skills in analysis, problem solving, training and coaching, and written and oral communication.",
         }
       }
     />
@@ -62,19 +62,6 @@ exports[`renders correct resume component 1`] = `
               />
                
               Docker
-            </span>
-          </li>
-          <li
-            className="captionedIconContainer"
-          >
-            <span>
-              <img
-                alt="Kubernetes"
-                className="captionedIcon"
-                src="/icons/devops-kubernetes.svg"
-              />
-               
-              Kubernetes
             </span>
           </li>
           <li
@@ -291,9 +278,9 @@ exports[`renders correct resume component 1`] = `
         freeCodeCamp
       </h3>
       <p>
-        2022 to present
+        2022
         , 
-        Certification in Frontend Web Libraries (in-progress)
+        Certifications in Responsive Web Design and JavaScript Algorithms and Data Structures
       </p>
       <p
         dangerouslySetInnerHTML={
@@ -359,6 +346,61 @@ exports[`renders correct resume component 1`] = `
       className="event"
     >
       <h3>
+        AlgoExpert
+      </h3>
+      <p>
+        2022
+        , 
+        Certificate of Completion
+      </p>
+      <p
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Self-paced curriculum in algorithms and data structures, including linked lists, arrays, graphs, trees, strings, recursion, and dynamic programming.",
+          }
+        }
+      />
+      <ul
+        className="skillsUsed"
+      >
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Python",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "TypeScript",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Algorithms",
+            }
+          }
+        />
+        <li
+          className="skillTag"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Data structures",
+            }
+          }
+        />
+      </ul>
+    </div>
+    <div
+      className="event"
+    >
+      <h3>
         Nucamp
       </h3>
       <p>
@@ -369,7 +411,7 @@ exports[`renders correct resume component 1`] = `
       <p
         dangerouslySetInnerHTML={
           Object {
-            "__html": "Boot camp course in modern backend Web development with the Python language, PostgreSQL, Flask, Django, and DevOps deployments to Microsoft Azure, Google Cloud, and Amazon AWS.",
+            "__html": "<p>Boot camp course in modern backend Web development with the Python language, PostgreSQL, Flask, Django, and DevOps deployments to Microsoft Azure, Google Cloud, and Amazon AWS.</p><p>Offered coaching and assistance to classmates throughout the course.</p>",
           }
         }
       />
@@ -448,7 +490,7 @@ exports[`renders correct resume component 1`] = `
       <p
         dangerouslySetInnerHTML={
           Object {
-            "__html": "Broad-ranging instruction in concepts and procedures of the medical billing office, including reimbursement principles, medical terms, medical coding, and practice-management software.",
+            "__html": "<p>Broad-ranging instruction in concepts and procedures of the medical billing office, including reimbursement principles, medical terms, medical coding, and practice-management software.</p><p>Offered coaching and assistance to classmates throughout the course.</p>",
           }
         }
       />
@@ -622,42 +664,42 @@ exports[`renders correct resume component 1`] = `
         <li
           dangerouslySetInnerHTML={
             Object {
-              "__html": "Averaged 30 claims per day with 98% accuracy.",
+              "__html": "Collaborated with a 10-member cross-functional team that reduced outstanding claims by 40% quarter-over-quarter, reducing A/R days by 33%",
             }
           }
         />
         <li
           dangerouslySetInnerHTML={
             Object {
-              "__html": "90% remote since March 2020.",
+              "__html": "Evaluated and resolved an average of 35 claims per day with 98% accuracy",
             }
           }
         />
         <li
           dangerouslySetInnerHTML={
             Object {
-              "__html": "Trained other representatives on writing appeal letters.",
+              "__html": "Assessed denied claims and reviewed for appeal processes",
             }
           }
         />
         <li
           dangerouslySetInnerHTML={
             Object {
-              "__html": "Responsible for reducing outstanding claim volume by 50% within one quarter.",
+              "__html": "Drafted appeal letters to all major carriers, overturning 70% of denials",
             }
           }
         />
         <li
           dangerouslySetInnerHTML={
             Object {
-              "__html": "Recognized as my team's point of knowledge for questions on diagnosis and procedure coding.",
+              "__html": "Recognized as my team's point of knowledge for questions on diagnosis and procedure coding",
             }
           }
         />
         <li
           dangerouslySetInnerHTML={
             Object {
-              "__html": "Submitted more than 300 appeals to all major payers, overturning 70% of denials.",
+              "__html": "Guided and trained personnel within a 55-member department, training on coding rules, standard workflows, software usage, and appeal letter origination",
             }
           }
         />
@@ -764,28 +806,35 @@ exports[`renders correct resume component 1`] = `
         <li
           dangerouslySetInnerHTML={
             Object {
-              "__html": "Averaged 1,200 line items per day with 100% accuracy.",
+              "__html": "Partnered with an established 10-member team to review more than 8,000 outbound line items per day",
             }
           }
         />
         <li
           dangerouslySetInnerHTML={
             Object {
-              "__html": "Worked in a diverse array of medical specialties including surgery, oncology, and public health.",
+              "__html": "Reviewed 1,200 line items per day with 100% accuracy",
             }
           }
         />
         <li
           dangerouslySetInnerHTML={
             Object {
-              "__html": "Made approved edits in accordance with company and payer guidelines.",
+              "__html": "Increased clean claim rate by 5% on average by practice, reducing A/R overhead and turnaround time",
             }
           }
         />
         <li
           dangerouslySetInnerHTML={
             Object {
-              "__html": "Contributed to a team responsible for reviewing more than 8,000 line items per day.",
+              "__html": "Analyzed an average of $100,000 of charges per day for inaccuracies",
+            }
+          }
+        />
+        <li
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Proposed workflow alterations which led to 10% faster turnaround of paper charge batches",
             }
           }
         />
@@ -868,21 +917,28 @@ exports[`renders correct resume component 1`] = `
         <li
           dangerouslySetInnerHTML={
             Object {
-              "__html": "Cleaned a total of 50,000 sq ft of office space per night.",
+              "__html": "Supervised a two-person cleaning crew maintaining 50,000 square feet per night",
             }
           }
         />
         <li
           dangerouslySetInnerHTML={
             Object {
-              "__html": "Achieved a complaint rate of 0% for 7 consecutive years.",
+              "__html": "Led review initiatives of cleaning and training protocols, increasing productivity by 33%",
             }
           }
         />
         <li
           dangerouslySetInnerHTML={
             Object {
-              "__html": "Created the company website using WordPress and the <abbr title='Linux, nginx, MariaDB, and PHP'>LEMP</abbr> stack.",
+              "__html": "Redeveloped internal tracking systems to reduce lead time on bids by 50%",
+            }
+          }
+        />
+        <li
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Implemented a company website that doubled inbound sales calls",
             }
           }
         />

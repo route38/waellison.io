@@ -12,9 +12,9 @@ exports[`renders correct education component 1`] = `
       freeCodeCamp
     </h3>
     <p>
-      2022 to present
+      2022
       , 
-      Certification in Frontend Web Libraries (in-progress)
+      Certifications in Responsive Web Design and JavaScript Algorithms and Data Structures
     </p>
     <p
       dangerouslySetInnerHTML={
@@ -80,6 +80,61 @@ exports[`renders correct education component 1`] = `
     className="event"
   >
     <h3>
+      AlgoExpert
+    </h3>
+    <p>
+      2022
+      , 
+      Certificate of Completion
+    </p>
+    <p
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Self-paced curriculum in algorithms and data structures, including linked lists, arrays, graphs, trees, strings, recursion, and dynamic programming.",
+        }
+      }
+    />
+    <ul
+      className="skillsUsed"
+    >
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Python",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "TypeScript",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Algorithms",
+          }
+        }
+      />
+      <li
+        className="skillTag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Data structures",
+          }
+        }
+      />
+    </ul>
+  </div>
+  <div
+    className="event"
+  >
+    <h3>
       Nucamp
     </h3>
     <p>
@@ -90,7 +145,7 @@ exports[`renders correct education component 1`] = `
     <p
       dangerouslySetInnerHTML={
         Object {
-          "__html": "Boot camp course in modern backend Web development with the Python language, PostgreSQL, Flask, Django, and DevOps deployments to Microsoft Azure, Google Cloud, and Amazon AWS.",
+          "__html": "<p>Boot camp course in modern backend Web development with the Python language, PostgreSQL, Flask, Django, and DevOps deployments to Microsoft Azure, Google Cloud, and Amazon AWS.</p><p>Offered coaching and assistance to classmates throughout the course.</p>",
         }
       }
     />
@@ -169,7 +224,7 @@ exports[`renders correct education component 1`] = `
     <p
       dangerouslySetInnerHTML={
         Object {
-          "__html": "Broad-ranging instruction in concepts and procedures of the medical billing office, including reimbursement principles, medical terms, medical coding, and practice-management software.",
+          "__html": "<p>Broad-ranging instruction in concepts and procedures of the medical billing office, including reimbursement principles, medical terms, medical coding, and practice-management software.</p><p>Offered coaching and assistance to classmates throughout the course.</p>",
         }
       }
     />

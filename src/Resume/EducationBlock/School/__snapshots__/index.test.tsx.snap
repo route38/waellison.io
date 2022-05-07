@@ -8,9 +8,9 @@ exports[`renders correct school component 1`] = `
     freeCodeCamp
   </h3>
   <p>
-    2022 to present
+    2022
     , 
-    Certification in Frontend Web Libraries (in-progress)
+    Certifications in Responsive Web Design and JavaScript Algorithms and Data Structures
   </p>
   <p
     dangerouslySetInnerHTML={

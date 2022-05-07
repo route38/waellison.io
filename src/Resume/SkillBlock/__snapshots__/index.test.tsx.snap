@@ -49,19 +49,6 @@ exports[`renders correct skill block component 1`] = `
         >
           <span>
             <img
-              alt="Kubernetes"
-              className="captionedIcon"
-              src="/icons/devops-kubernetes.svg"
-            />
-             
-            Kubernetes
-          </span>
-        </li>
-        <li
-          className="captionedIconContainer"
-        >
-          <span>
-            <img
               alt="Git"
               className="captionedIcon"
               src="/icons/software-Git.svg"

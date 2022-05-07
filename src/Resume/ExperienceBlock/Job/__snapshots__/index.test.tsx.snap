@@ -18,42 +18,42 @@ exports[`renders correct job component 1`] = `
     <li
       dangerouslySetInnerHTML={
         Object {
-          "__html": "Averaged 30 claims per day with 98% accuracy.",
+          "__html": "Collaborated with a 10-member cross-functional team that reduced outstanding claims by 40% quarter-over-quarter, reducing A/R days by 33%",
         }
       }
     />
     <li
       dangerouslySetInnerHTML={
         Object {
-          "__html": "90% remote since March 2020.",
+          "__html": "Evaluated and resolved an average of 35 claims per day with 98% accuracy",
         }
       }
     />
     <li
       dangerouslySetInnerHTML={
         Object {
-          "__html": "Trained other representatives on writing appeal letters.",
+          "__html": "Assessed denied claims and reviewed for appeal processes",
         }
       }
     />
     <li
       dangerouslySetInnerHTML={
         Object {
-          "__html": "Responsible for reducing outstanding claim volume by 50% within one quarter.",
+          "__html": "Drafted appeal letters to all major carriers, overturning 70% of denials",
         }
       }
     />
     <li
       dangerouslySetInnerHTML={
         Object {
-          "__html": "Recognized as my team's point of knowledge for questions on diagnosis and procedure coding.",
+          "__html": "Recognized as my team's point of knowledge for questions on diagnosis and procedure coding",
         }
       }
     />
     <li
       dangerouslySetInnerHTML={
         Object {
-          "__html": "Submitted more than 300 appeals to all major payers, overturning 70% of denials.",
+          "__html": "Guided and trained personnel within a 55-member department, training on coding rules, standard workflows, software usage, and appeal letter origination",
         }
       }
     />
