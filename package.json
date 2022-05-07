@@ -76,7 +76,8 @@
   "scripts": {
     "start": "react-dotenv && node scripts/start.js",
     "build": "react-dotenv && node scripts/build.js",
-    "test": "react-dotenv && node scripts/test.js"
+    "test": "react-dotenv && node scripts/test.js",
+    "deploy": "react-dotenv && node scripts/build.js && bash scripts/deploy.sh"
   },
   "eslintConfig": {
     "extends": [
