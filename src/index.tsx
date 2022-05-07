@@ -6,7 +6,7 @@ import Portfolio from "./Portfolio";
 import FrontPage from "./FrontPage";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
-import "./index.css";
+//import "./index.css";
 
 const docRoot: HTMLElement | null = document.getElementById("root");
 const root = createRoot(docRoot!);
