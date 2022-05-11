@@ -19,9 +19,6 @@ const Footer = () => {
         <a href="//linkedin.com/in/tnwae" className="socialBtn linkedinLink">
             <FontAwesomeIcon icon={faLinkedinIn}/>
         </a>
-        <a href="//twitter.com/waedotpy" className="socialBtn twitterLink">
-            <FontAwesomeIcon icon={faTwitter}/>
-        </a>
         <a href="//instagram.com/nobettershoulder" className="socialBtn instaLink">
             <FontAwesomeIcon icon={faInstagram}/>
         </a>
