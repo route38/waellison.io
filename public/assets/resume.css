@@ -21,3 +21,29 @@
         margin-top: 12rem;
     }
 }
+
+.projectContainer {
+    display: grid;
+    grid-template-columns: calc(50% - 1rem) calc(50% - 1rem);
+    column-gap: 2rem;
+}
+
+@media (max-width: 800px) {
+    .projectContainer {
+        display: inherit;
+    }
+}
+
+.gitHubProject {
+    background-color: #767a7f;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    color: #171a1f;
+    box-shadow: 5px 5px 10px #171a1f;
+}
+
+.gitHubProject a:link, .gitHubProject a:visited {
+    color: #ecbc00;
+}

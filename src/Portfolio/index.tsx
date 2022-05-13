@@ -7,8 +7,7 @@ const Portfolio = () => {
     let projects: Array<string> = [
         "willpress",
         "willread",
-        "react-resume",
-        "react-resume-api",
+        "react-without-cra",
         "nuventure",
         "pysfr",
         "willshorten",
@@ -16,11 +15,16 @@ const Portfolio = () => {
     return (
         <div className="container">
             <h1>Selected Work</h1>
+            <p>
+                These projects are loaded live from GitHub.
+            </p>
+            <div className="projectContainer">
             {
                 projects.map ((project) => {
                     return <Project key={`project${i++}`} user={username} project={project}/>
                 })
             }
+            </div>
         </div>
     );
 };
