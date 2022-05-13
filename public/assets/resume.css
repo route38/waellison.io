@@ -1,0 +1,23 @@
+.skillCategory .captionedIcon {
+    height: 24px;
+    width: 24px;
+}
+
+.jumbotron {
+    margin-top: 12rem;
+    animation: fadeInTheJumbotron linear 1.5s;
+}
+
+@keyframes fadeInTheJumbotron {
+    0% {
+        opacity: 0;
+        margin-top: 16rem;
+    }
+    66% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+        margin-top: 12rem;
+    }
+}
