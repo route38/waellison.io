@@ -23,6 +23,7 @@ type GitHubProject = {
     description?: string,
     language?: string,
     html_url?: string,
+    url?: string
 }
 
 export default class Project extends React.Component<IProps, IState> {
@@ -70,6 +71,7 @@ export default class Project extends React.Component<IProps, IState> {
                                        name: response.data.name,
                                        description: response.data.description,
                                        html_url: response.data.html_url,
+                                       url: response.data.homepage,
                                        language: this.state.language,
                                    };
                                    this.setState({
@@ -115,6 +117,23 @@ export default class Project extends React.Component<IProps, IState> {
         const project = this.state.projectInfo;
 
         if(project) {
+            let MoreInfoLink = () => {return <></>};
+
+            if(project.url) {
+                MoreInfoLink = () => {
+                    return (
+                        <>
+                            {" "}&bull;{" "}
+                            <a href={project.url} rel="noreferrer" target="_blank">
+                                {
+                                    /.*pypi\.org.*/.test(project.url!) ? "PyPI Homepage" : "Project Homepage"
+                                }
+                            </a>
+                        </>
+                    )
+                };
+            }
+
             return (
                 <div className="gitHubProject">
                     <h2>{project.name}</h2>
@@ -122,15 +141,13 @@ export default class Project extends React.Component<IProps, IState> {
                         {project.description}
                     </p>
                     <p className="language">
-                        Language: {this.state.language}
+                        Language: {this.state.language}w
                     </p>
                     <p className="link">
                         <a href={project.html_url} rel="noreferrer" target="_blank">
                             GitHub Repository
-                        </a> &bull;{" "}
-                        <a href={`/projects/${project.name}`} rel="noreferrer" target="_blank">
-                            More Information
                         </a>
+                        <MoreInfoLink />
                     </p>
                 </div>
             )

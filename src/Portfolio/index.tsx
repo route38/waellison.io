@@ -7,10 +7,10 @@ const Portfolio = () => {
     let projects: Array<string> = [
         "willpress",
         "willread",
+        "laroux",
         "react-without-cra",
         "nuventure",
-        "pysfr",
-        "willshorten",
+        "songquiz",
     ]
     return (
         <div className="container">
