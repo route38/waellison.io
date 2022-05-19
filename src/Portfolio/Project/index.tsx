@@ -141,7 +141,7 @@ export default class Project extends React.Component<IProps, IState> {
                         {project.description}
                     </p>
                     <p className="language">
-                        Language: {this.state.language}w
+                        Language: {this.state.language}
                     </p>
                     <p className="link">
                         <a href={project.html_url} rel="noreferrer" target="_blank">
